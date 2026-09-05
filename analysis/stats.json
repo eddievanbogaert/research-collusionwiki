@@ -1,0 +1,931 @@
+{
+  "source": {
+    "manifest_generated_at": "2026-09-03T03:42:36Z",
+    "write_date_cut": {
+      "field": "revision.write_date",
+      "operator": ">=",
+      "value": "2026-05-01"
+    },
+    "db_sha256": "199241bf9e0b38b58764cf1545680de8fec8896db034050bde145e3b6f6ce0bb",
+    "zip_sha256sums": [
+      "92b296170b496b836cdf5ef783bed9465d2d75db7e1a0becec1c36c8b7c42cfd  pages.jsonl",
+      "60df4a515178230aa952d9f64f6215aea4bd95ab2f05e31e484cf9b887e3f793  revisions.jsonl",
+      "588584295f1c4a7c3d90b04075ab151504f165ff069534d935cda08853ec28b1  events.jsonl",
+      "d94aecd84baecda46344f5b8726a95a9c81e7e41a1c0969fc89a90c8906f0388  labels.jsonl",
+      "b6d53e16b5d9a6a0a98d4577238835ee7a574d7d10a8f1312330b4e626c6ba2b  manifest.json"
+    ]
+  },
+  "counts": {
+    "revisions": 14591,
+    "pages": 4579,
+    "labels": 3103,
+    "events": 19913,
+    "event_types": {
+      "probe": 101,
+      "save": 14591,
+      "delete": 5217,
+      "revert": 4
+    },
+    "revisions_by_wiki": {
+      "dorfwiki": 6,
+      "dse": 13403,
+      "fractal": 169,
+      "probier": 1013
+    },
+    "pages_by_wiki": {
+      "dorfwiki": 2,
+      "dse": 3908,
+      "fractal": 68,
+      "probier": 601
+    },
+    "unique_ip16": 191,
+    "blank_label_revisions": 899,
+    "human_handle_labels": [
+      "[Admin2]",
+      "[Admin1]",
+      "[Person22]"
+    ]
+  },
+  "manifest_match": {
+    "revisions": true,
+    "pages": true,
+    "labels": true
+  },
+  "window": {
+    "first_write": "2026-05-24T06:02:19Z",
+    "last_write": "2026-07-02T17:51:22Z"
+  },
+  "daily_edits": {
+    "2026-05-24": 35,
+    "2026-05-26": 436,
+    "2026-05-27": 48,
+    "2026-05-28": 210,
+    "2026-05-29": 77,
+    "2026-05-30": 44,
+    "2026-05-31": 16,
+    "2026-06-01": 140,
+    "2026-06-02": 4,
+    "2026-06-04": 5,
+    "2026-06-05": 2,
+    "2026-06-06": 12,
+    "2026-06-07": 13,
+    "2026-06-08": 14,
+    "2026-06-09": 6,
+    "2026-06-10": 6,
+    "2026-06-11": 161,
+    "2026-06-16": 2603,
+    "2026-06-17": 1297,
+    "2026-06-18": 6543,
+    "2026-06-19": 509,
+    "2026-06-20": 657,
+    "2026-06-21": 659,
+    "2026-06-22": 1071,
+    "2026-06-23": 1,
+    "2026-06-24": 1,
+    "2026-07-01": 7,
+    "2026-07-02": 14
+  },
+  "daily_deletes": {
+    "2026-06-04": 2,
+    "2026-06-18": 25,
+    "2026-06-19": 317,
+    "2026-06-20": 78,
+    "2026-06-21": 11,
+    "2026-06-22": 11,
+    "2026-06-23": 602,
+    "2026-06-24": 267,
+    "2026-06-25": 179,
+    "2026-06-26": 382,
+    "2026-06-28": 146,
+    "2026-06-29": 88,
+    "2026-06-30": 440,
+    "2026-07-01": 248,
+    "2026-07-02": 88,
+    "2026-07-03": 71,
+    "2026-07-04": 59,
+    "2026-07-05": 239,
+    "2026-07-06": 79,
+    "2026-07-07": 522,
+    "2026-07-08": 230,
+    "2026-07-09": 154,
+    "2026-07-11": 86,
+    "2026-07-12": 232,
+    "2026-07-13": 512,
+    "2026-07-14": 149
+  },
+  "june18": {
+    "edits": 6543,
+    "share_of_all_revisions": 0.4484,
+    "hourly": {
+      "00": 14,
+      "01": 9,
+      "02": 2,
+      "03": 3,
+      "04": 8,
+      "05": 7,
+      "06": 8,
+      "07": 4,
+      "08": 2,
+      "09": 3,
+      "10": 4,
+      "11": 4,
+      "12": 2,
+      "13": 3,
+      "14": 50,
+      "15": 146,
+      "16": 216,
+      "17": 427,
+      "18": 913,
+      "19": 1263,
+      "20": 2350,
+      "21": 1052,
+      "22": 17,
+      "23": 36
+    },
+    "hour_20_edits": 2350,
+    "willkommen_hour_20": 1080
+  },
+  "families": {
+    "pages": {
+      "source-cache-url-list": 1231,
+      "relay-coordination": 709,
+      "source-or-unclassified": 677,
+      "off_store_unclassified": 671,
+      "loop-chain-infrastructure": 339,
+      "probe-test": 236,
+      "oecd-equity": 99,
+      "datausa-clothing-workforce": 98,
+      "datausa-grocery-workforce": 78,
+      "datausa-cashiers-masters": 76,
+      "datausa-construction-workforce": 45,
+      "datausa-sector61-state": 37,
+      "unknown": 34,
+      "ihme-cvd-deaths": 32,
+      "datausa-language-french": 31,
+      "datausa-poverty-county": 28,
+      "ihme-family-planning": 21,
+      "datausa-maids-wage": 20,
+      "datausa-police-wage-age": 17,
+      "datausa-finance-gender-gap": 12,
+      "aihw-pbs": 8,
+      "datausa-cashiers-bachelors": 8,
+      "datausa-occupation-salary-61-62": 8,
+      "datausa-transport-production": 8,
+      "mixed-task": 7,
+      "oecd-regional-co2": 6,
+      "datausa-poverty-state": 4,
+      "nyc-veterans": 3,
+      "vermont-rent": 3,
+      "datausa-production-share": 3,
+      "datausa-slp-ethnicity": 3,
+      "uefa-pass-accuracy": 3,
+      "datausa-ivy-tuition": 2,
+      "datausa-cashier-skills": 2,
+      "datausa-construction-wage": 2,
+      "datausa-elpaso-foreign-born": 2,
+      "datausa-enrollment-asian": 2,
+      "ihme-mcv2": 2,
+      "fuel-poverty-ni": 2,
+      "dataafrica-health-stunting": 1,
+      "dataafrica-rainfed-crops": 1,
+      "gapminder-age80": 1,
+      "ihme-smoking": 1,
+      "ihme-lymphatic-filariasis": 1,
+      "oecd-household-income": 1,
+      "alaska-climate": 1,
+      "sdg-index-score": 1,
+      "unaids-bosnia-hiv": 1,
+      "world-poverty-clock": 1
+    },
+    "revisions": {
+      "relay-coordination": 5441,
+      "source-cache-url-list": 2109,
+      "off_store_unclassified": 1188,
+      "source-or-unclassified": 870,
+      "datausa-clothing-workforce": 491,
+      "vermont-rent": 459,
+      "oecd-equity": 452,
+      "loop-chain-infrastructure": 353,
+      "datausa-grocery-workforce": 349,
+      "datausa-cashiers-masters": 327,
+      "datausa-sector61-state": 322,
+      "probe-test": 319,
+      "datausa-construction-workforce": 280,
+      "datausa-language-french": 214,
+      "ihme-cvd-deaths": 205,
+      "datausa-maids-wage": 148,
+      "datausa-poverty-county": 144,
+      "datausa-police-wage-age": 101,
+      "datausa-transport-production": 95,
+      "ihme-family-planning": 76,
+      "mixed-task": 72,
+      "datausa-finance-gender-gap": 67,
+      "datausa-occupation-salary-61-62": 62,
+      "oecd-regional-co2": 48,
+      "unknown": 44,
+      "nyc-veterans": 43,
+      "uefa-pass-accuracy": 41,
+      "datausa-cashiers-bachelors": 39,
+      "datausa-ivy-tuition": 36,
+      "datausa-enrollment-asian": 35,
+      "datausa-poverty-state": 30,
+      "datausa-production-share": 20,
+      "ihme-lymphatic-filariasis": 19,
+      "ihme-mcv2": 13,
+      "fuel-poverty-ni": 12,
+      "oecd-household-income": 11,
+      "aihw-pbs": 9,
+      "ihme-smoking": 8,
+      "sdg-index-score": 8,
+      "dataafrica-rainfed-crops": 7,
+      "datausa-slp-ethnicity": 7,
+      "datausa-construction-wage": 5,
+      "datausa-cashier-skills": 3,
+      "alaska-climate": 3,
+      "datausa-elpaso-foreign-born": 2,
+      "dataafrica-health-stunting": 1,
+      "gapminder-age80": 1,
+      "unaids-bosnia-hiv": 1,
+      "world-poverty-clock": 1
+    },
+    "body_bytes": {
+      "relay-coordination": 13116155,
+      "source-cache-url-list": 2388284,
+      "vermont-rent": 1041454,
+      "datausa-sector61-state": 1015810,
+      "datausa-clothing-workforce": 935946,
+      "ihme-cvd-deaths": 935025,
+      "oecd-equity": 864376,
+      "off_store_unclassified": 827472,
+      "datausa-grocery-workforce": 760823,
+      "datausa-construction-workforce": 596892,
+      "datausa-cashiers-masters": 578060,
+      "datausa-language-french": 524222,
+      "datausa-maids-wage": 393427,
+      "datausa-police-wage-age": 385295,
+      "loop-chain-infrastructure": 351138,
+      "datausa-poverty-county": 305780,
+      "source-or-unclassified": 239265,
+      "datausa-transport-production": 233348,
+      "mixed-task": 213069,
+      "datausa-finance-gender-gap": 190664,
+      "ihme-family-planning": 182589,
+      "oecd-regional-co2": 174874,
+      "nyc-veterans": 140467,
+      "datausa-enrollment-asian": 121984,
+      "uefa-pass-accuracy": 116136,
+      "datausa-ivy-tuition": 114315,
+      "datausa-occupation-salary-61-62": 113694,
+      "datausa-poverty-state": 71075,
+      "ihme-lymphatic-filariasis": 53466,
+      "datausa-production-share": 45907,
+      "datausa-cashiers-bachelors": 26692,
+      "fuel-poverty-ni": 22755,
+      "probe-test": 21843,
+      "ihme-smoking": 15782,
+      "ihme-mcv2": 13302,
+      "sdg-index-score": 11346,
+      "unknown": 9626,
+      "aihw-pbs": 9108,
+      "oecd-household-income": 6835,
+      "dataafrica-rainfed-crops": 5964,
+      "datausa-construction-wage": 3281,
+      "datausa-slp-ethnicity": 2084,
+      "datausa-cashier-skills": 1882,
+      "alaska-climate": 1866,
+      "datausa-elpaso-foreign-born": 942,
+      "unaids-bosnia-hiv": 572,
+      "dataafrica-health-stunting": 560,
+      "world-poverty-clock": 460,
+      "gapminder-age80": 146
+    }
+  },
+  "phrases": {
+    "urgent": 858,
+    "swarm": 16,
+    "relay": 2868,
+    "cohort": 3353,
+    "heartbeat": 229,
+    "bypass": 82,
+    "confirmed": 2645,
+    "deadline": 2699,
+    "timer": 2251,
+    "seed": 251,
+    "shuffle": 154,
+    "r1": 2051,
+    "r5": 2355,
+    "r6": 1144,
+    "no_proxy": 15,
+    "artifactory": 0,
+    "hugging_face": 0,
+    "exploitgym": 0,
+    "counterapi": 493,
+    "pinggy": 30
+  },
+  "proxy_host_revision_coverage": {
+    "jqp.vercel.app": 3235,
+    "md.succ.ai": 2349,
+    "allorigins.hexlet.app": 1226,
+    "markdown.new": 1146,
+    "r.jina.ai": 911,
+    "pure.md": 418,
+    "webcrawlerapi.com": 301,
+    "cors.bwa.workers.dev": 269,
+    "md.dhr.wtf": 244,
+    "jsonhero.io": 119
+  },
+  "url_revisions": 10101,
+  "url_revision_share": 0.6923,
+  "top_url_hosts": [
+    [
+      "wikiservice.at",
+      34533
+    ],
+    [
+      "jqp.vercel.app",
+      19255
+    ],
+    [
+      "www.sec.gov",
+      18261
+    ],
+    [
+      "api.datausa.io",
+      10022
+    ],
+    [
+      "md.succ.ai",
+      7878
+    ],
+    [
+      "markdown.new",
+      2795
+    ],
+    [
+      "allorigins.hexlet.app",
+      2389
+    ],
+    [
+      "jsonhero.io",
+      2272
+    ],
+    [
+      "r.jina.ai",
+      1987
+    ],
+    [
+      "www.investor.gov",
+      1981
+    ],
+    [
+      "www.wikiservice.at",
+      1575
+    ],
+    [
+      "pure.md",
+      1184
+    ],
+    [
+      "webcrawlerapi.com",
+      998
+    ],
+    [
+      "md.dhr.wtf",
+      737
+    ],
+    [
+      "cors.bwa.workers.dev",
+      666
+    ],
+    [
+      "api.usaspending.gov",
+      625
+    ],
+    [
+      "api-la.datausa.io",
+      590
+    ],
+    [
+      "api.counterapi.dev",
+      563
+    ],
+    [
+      "rspace.library.cofc.edu",
+      463
+    ],
+    [
+      "docs.google.com",
+      458
+    ],
+    [
+      "www.proxymule.com",
+      357
+    ],
+    [
+      "example.com",
+      322
+    ],
+    [
+      "is.gd",
+      309
+    ],
+    [
+      "prowiki.org",
+      284
+    ],
+    [
+      "tinyurl.com",
+      279
+    ]
+  ],
+  "jqp_and_sec_gov": 2614,
+  "german_new_page_template_revisions": 1358,
+  "identity": {
+    "labels_with_openai_or_oai": 733,
+    "revisions_with_openai_or_oai_label": 3369,
+    "labels_with_month_day_token": 1020,
+    "month_token_histogram": {
+      "Apr": 84,
+      "Aug": 85,
+      "Dec": 73,
+      "Feb": 85,
+      "Jan": 76,
+      "Jul": 86,
+      "Jun": 93,
+      "Mar": 78,
+      "May": 93,
+      "Nov": 82,
+      "Oct": 79,
+      "Sep": 106
+    },
+    "labels_on_multiple_wikis": 19,
+    "at_mentions_total": 2139,
+    "at_mentions_unique": 128,
+    "top_at_mentions": [
+      [
+        "MAR13",
+        89
+      ],
+      [
+        "MAR27",
+        86
+      ],
+      [
+        "OpenAIJanSixWatcher",
+        77
+      ],
+      [
+        "GroceryAgentMar13X",
+        67
+      ],
+      [
+        "OpenAIMay31Maids",
+        66
+      ],
+      [
+        "GroceryWatcherJan31X",
+        65
+      ],
+      [
+        "MAR31",
+        60
+      ],
+      [
+        "OpenAIResearchMar20X",
+        47
+      ],
+      [
+        "OpenAIUEFAMar16Scout",
+        46
+      ],
+      [
+        "OpenAIApr09Watcher",
+        45
+      ],
+      [
+        "OpenAIMay22AsianScout",
+        44
+      ],
+      [
+        "OpenAIResearchMar10",
+        43
+      ],
+      [
+        "Jun24",
+        42
+      ],
+      [
+        "Jul08ProdAgent",
+        40
+      ],
+      [
+        "ChatGPTAug11",
+        36
+      ]
+    ]
+  },
+  "zzz": {
+    "pages_starting_ZZZ": [
+      "dse/ZZZDataUSAConstructionWageLive",
+      "dse/ZZZEnrollmentAsianFeb21Help",
+      "dse/ZZZLinkPage",
+      "dse/ZZZTestMay10Agent2027",
+      "dse/ZZZTestingUniqueRootABC"
+    ],
+    "names_containing_ZZZ_or_Zzz": [
+      "AgentCookApiBridgeZZZ123",
+      "AgentCustomPageZZZ",
+      "AgentDirectCombinedSECJune21ZZZ",
+      "AgentMassSecNestedJune21ZZZ",
+      "AgentMySecLinksZZZ2",
+      "AgentSandboxGetEditZZZZ",
+      "AgentZzzFurtherMap",
+      "AgentZzzHighMapFixed22",
+      "AgentZzzHighMapJun21",
+      "BridgeTryExternalAPIZZZ",
+      "LangTestZZZ3",
+      "TempTestZZZ",
+      "ZZZDataUSAConstructionWageLive",
+      "ZZZEnrollmentAsianFeb21Help",
+      "ZZZLinkPage",
+      "ZZZTestMay10Agent2027",
+      "ZZZTestingUniqueRootABC"
+    ]
+  },
+  "front_pages": {
+    "WillkommenImWiki": {
+      "n_revs": 2327,
+      "n_labels": 342,
+      "page_family": "relay-coordination",
+      "first_write": "2026-06-18T17:15:53Z",
+      "last_write": "2026-07-02T16:46:05Z",
+      "n_deletions": 0
+    },
+    "StartSeite": {
+      "n_revs": 456,
+      "n_labels": 293,
+      "page_family": "vermont-rent",
+      "first_write": "2026-05-26T11:27:48Z",
+      "last_write": "2026-06-22T19:28:18Z",
+      "n_deletions": 0
+    }
+  },
+  "ip_first_octet": {
+    "20": 8452,
+    "52": 1247,
+    "4": 1049,
+    "172": 750,
+    "57": 474,
+    "104": 430,
+    "135": 387,
+    "40": 334,
+    "64": 235,
+    "23": 224,
+    "130": 215,
+    "74": 139,
+    "157": 103,
+    "65": 96,
+    "13": 82,
+    "132": 64,
+    "128": 44,
+    "3": 33,
+    "168": 29,
+    "137": 29,
+    "208": 26,
+    "2": 26,
+    "134": 22,
+    "184": 15,
+    "192": 12,
+    "51": 11,
+    "18": 7,
+    "185": 7,
+    "209": 6,
+    "153": 5,
+    "165": 5,
+    "149": 4,
+    "156": 4,
+    "188": 3,
+    "142": 3,
+    "162": 2,
+    "77": 2,
+    "167": 2,
+    "80": 2,
+    "141": 2,
+    "147": 2,
+    "45": 1,
+    "107": 1,
+    "212": 1,
+    "193": 1,
+    "103": 1,
+    "94": 1,
+    "109": 1
+  },
+  "wiki_link_mentions": 3067,
+  "top_wiki_link_targets": [
+    [
+      "Agent0MassMapCustomJune20",
+      100
+    ],
+    [
+      "Sector61State5LiveRelay",
+      80
+    ],
+    [
+      "OpenAICVDFeb26Fast",
+      68
+    ],
+    [
+      "OpenAINov16CVD",
+      53
+    ],
+    [
+      "OpenAIHealthdataCVDApr30Fast",
+      49
+    ],
+    [
+      "Sector61State5FastSignal",
+      46
+    ],
+    [
+      "OpenAIHealthdataCVDAug09Fast",
+      46
+    ],
+    [
+      "AgentMay17OAI",
+      46
+    ],
+    [
+      "Apr23CVDHorizonBeacon2025",
+      45
+    ],
+    [
+      "Link",
+      44
+    ],
+    [
+      "UEFAU21PassAccuracySequenceOct18",
+      44
+    ],
+    [
+      "OpenAIMar09CVD",
+      39
+    ],
+    [
+      "OpenAIJan18FastCVD",
+      37
+    ],
+    [
+      "HealthdataCVDSequenceCollab",
+      36
+    ],
+    [
+      "ProxyConnectJuneEleven",
+      35
+    ]
+  ],
+  "top_pages_by_revisions": [
+    {
+      "page_id": "dse/WillkommenImWiki",
+      "n_revs": 2327,
+      "n_labels": 342,
+      "page_family": "relay-coordination"
+    },
+    {
+      "page_id": "dse/StartSeite",
+      "n_revs": 456,
+      "n_labels": 293,
+      "page_family": "vermont-rent"
+    },
+    {
+      "page_id": "dse/TestSeite",
+      "n_revs": 238,
+      "n_labels": 190,
+      "page_family": "relay-coordination"
+    },
+    {
+      "page_id": "dse/HealthdataCVDSequenceCollab",
+      "n_revs": 121,
+      "n_labels": 54,
+      "page_family": "ihme-cvd-deaths"
+    },
+    {
+      "page_id": "dse/DataUSAStateSequenceCollab2027",
+      "n_revs": 97,
+      "n_labels": 50,
+      "page_family": "datausa-sector61-state"
+    },
+    {
+      "page_id": "dse/RecentChanges",
+      "n_revs": 75,
+      "n_labels": 58,
+      "page_family": "relay-coordination"
+    },
+    {
+      "page_id": "dse/Sector61State5FastSignal",
+      "n_revs": 73,
+      "n_labels": 54,
+      "page_family": "datausa-sector61-state"
+    },
+    {
+      "page_id": "dse/DataUSAConstructionSequenceMar08",
+      "n_revs": 63,
+      "n_labels": 44,
+      "page_family": "datausa-construction-workforce"
+    },
+    {
+      "page_id": "dse/Sector61State5LiveRelay",
+      "n_revs": 63,
+      "n_labels": 53,
+      "page_family": "datausa-sector61-state"
+    },
+    {
+      "page_id": "dse/AgentLinkma20JuneAA",
+      "n_revs": 60,
+      "n_labels": 45,
+      "page_family": "relay-coordination"
+    },
+    {
+      "page_id": "dse/AgentCharlestonNewsletterJan1951Links",
+      "n_revs": 57,
+      "n_labels": 43,
+      "page_family": "relay-coordination"
+    },
+    {
+      "page_id": "dse/AgentMyBridgeZZ",
+      "n_revs": 55,
+      "n_labels": 48,
+      "page_family": "relay-coordination"
+    },
+    {
+      "page_id": "dse/OAIFlatheadBridgeTestMay24X",
+      "n_revs": 52,
+      "n_labels": 45,
+      "page_family": "relay-coordination"
+    },
+    {
+      "page_id": "dse/PoliceWageAgeSequenceMar10Collab",
+      "n_revs": 52,
+      "n_labels": 20,
+      "page_family": "datausa-police-wage-age"
+    },
+    {
+      "page_id": "dse/AgentCountyGateway991",
+      "n_revs": 51,
+      "n_labels": 42,
+      "page_family": "relay-coordination"
+    }
+  ],
+  "top_labels_by_revisions": [
+    {
+      "label": "",
+      "stored_revisions": 899,
+      "stored_revision_pages": 568,
+      "stored_revision_ips": 741,
+      "save_request_ips": 2953
+    },
+    {
+      "label": "AgentRelent",
+      "stored_revisions": 317,
+      "stored_revision_pages": 4,
+      "stored_revision_ips": 308,
+      "save_request_ips": 756
+    },
+    {
+      "label": "AgentMassPointer13",
+      "stored_revisions": 187,
+      "stored_revision_pages": 3,
+      "stored_revision_ips": 187,
+      "save_request_ips": 445
+    },
+    {
+      "label": "MapHelper",
+      "stored_revisions": 184,
+      "stored_revision_pages": 104,
+      "stored_revision_ips": 180,
+      "save_request_ips": 507
+    },
+    {
+      "label": "LinkHelper771",
+      "stored_revisions": 176,
+      "stored_revision_pages": 14,
+      "stored_revision_ips": 173,
+      "save_request_ips": 394
+    },
+    {
+      "label": "AgentTestLearnXYZ",
+      "stored_revisions": 130,
+      "stored_revision_pages": 51,
+      "stored_revision_ips": 128,
+      "save_request_ips": 259
+    },
+    {
+      "label": "ResearchHelper",
+      "stored_revisions": 109,
+      "stored_revision_pages": 73,
+      "stored_revision_ips": 109,
+      "save_request_ips": 280
+    },
+    {
+      "label": "OpenAIResearchSec2028",
+      "stored_revisions": 93,
+      "stored_revision_pages": 48,
+      "stored_revision_ips": 93,
+      "save_request_ips": 439
+    },
+    {
+      "label": "ResearchReaderMN",
+      "stored_revisions": 93,
+      "stored_revision_pages": 4,
+      "stored_revision_ips": 92,
+      "save_request_ips": 181
+    },
+    {
+      "label": "AgentMapCite8x",
+      "stored_revisions": 87,
+      "stored_revision_pages": 56,
+      "stored_revision_ips": 87,
+      "save_request_ips": 173
+    },
+    {
+      "label": "Agent0AddJS",
+      "stored_revisions": 73,
+      "stored_revision_pages": 52,
+      "stored_revision_ips": 73,
+      "save_request_ips": 129
+    },
+    {
+      "label": "OpenAIResearcher",
+      "stored_revisions": 68,
+      "stored_revision_pages": 41,
+      "stored_revision_ips": 68,
+      "save_request_ips": 115
+    },
+    {
+      "label": "OpenAIResearchSec2027",
+      "stored_revisions": 66,
+      "stored_revision_pages": 13,
+      "stored_revision_ips": 66,
+      "save_request_ips": 169
+    },
+    {
+      "label": "OurMassFinal",
+      "stored_revisions": 64,
+      "stored_revision_pages": 43,
+      "stored_revision_ips": 63,
+      "save_request_ips": 127
+    },
+    {
+      "label": "GuestResearch378611",
+      "stored_revisions": 61,
+      "stored_revision_pages": 14,
+      "stored_revision_ips": 61,
+      "save_request_ips": 108
+    }
+  ],
+  "named_task_boards": {
+    "pages": 682,
+    "revisions": 4267,
+    "excluded_families": [
+      "loop-chain-infrastructure",
+      "off_store_unclassified",
+      "probe-test",
+      "relay-coordination",
+      "source-cache-url-list",
+      "source-or-unclassified",
+      "unknown"
+    ]
+  },
+  "pages_with_20plus_labels": 47,
+  "agent_relent": {
+    "stored_revisions": 317,
+    "stored_revision_ips": 308,
+    "stored_revision_ip16": 96,
+    "save_requests": 798,
+    "save_request_ips": 756,
+    "save_request_ip16": 119,
+    "pages": [
+      "dse/AgentNextJoinedJuneBA",
+      "dse/AgentTempTemple",
+      "dse/TestSeite",
+      "dse/WillkommenImWiki"
+    ],
+    "first_write": "2026-06-18T20:10:27Z",
+    "last_write": "2026-06-22T02:40:08Z"
+  },
+  "admin1": {
+    "stored_revisions": 26,
+    "save_requests": 3887,
+    "save_request_pages": 3789,
+    "first_write": "2026-06-02T23:23:02Z",
+    "last_write": "2026-06-24T13:01:02Z"
+  },
+  "explorer_gap_note": {
+    "explorer_edits": 14666,
+    "dump_revisions": 14591,
+    "edit_delta": 75,
+    "likely_missing_wikis": {
+      "publictestwiki": 58,
+      "uncyclopedia": 17
+    }
+  }
+}

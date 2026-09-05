@@ -1,0 +1,91 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='980' height='360' font-family='ui-sans-serif, system-ui, sans-serif'>
+<rect width='100%' height='100%' fill='#fffef8'/>
+<text x='16' y='28' font-size='16' font-weight='600' fill='#111'>Stored revisions by write date</text>
+<line x1='56' y1='44' x2='56' y2='282' stroke='#ccc'/>
+<line x1='56' y1='282' x2='956' y2='282' stroke='#ccc'/>
+<rect x='56.0' y='280.7' width='30.2' height='1.3' fill='#1f4e79'>
+<title>2026-05-24: 35</title></rect>
+<text x='71.1' y='290' font-size='9' fill='#444' transform='rotate(-60 71.1 290)'>2026-05-24</text>
+<rect x='88.2' y='266.1' width='30.2' height='15.9' fill='#1f4e79'>
+<title>2026-05-26: 436</title></rect>
+<text x='103.3' y='290' font-size='9' fill='#444' transform='rotate(-60 103.3 290)'>2026-05-26</text>
+<rect x='120.4' y='280.3' width='30.2' height='1.7' fill='#1f4e79'>
+<title>2026-05-27: 48</title></rect>
+<text x='135.5' y='290' font-size='9' fill='#444' transform='rotate(-60 135.5 290)'>2026-05-27</text>
+<rect x='152.6' y='274.4' width='30.2' height='7.6' fill='#1f4e79'>
+<title>2026-05-28: 210</title></rect>
+<text x='167.8' y='290' font-size='9' fill='#444' transform='rotate(-60 167.8 290)'>2026-05-28</text>
+<rect x='184.9' y='279.2' width='30.2' height='2.8' fill='#1f4e79'>
+<title>2026-05-29: 77</title></rect>
+<text x='200.0' y='290' font-size='9' fill='#444' transform='rotate(-60 200.0 290)'>2026-05-29</text>
+<rect x='217.1' y='280.4' width='30.2' height='1.6' fill='#1f4e79'>
+<title>2026-05-30: 44</title></rect>
+<text x='232.2' y='290' font-size='9' fill='#444' transform='rotate(-60 232.2 290)'>2026-05-30</text>
+<rect x='249.3' y='281.4' width='30.2' height='0.6' fill='#1f4e79'>
+<title>2026-05-31: 16</title></rect>
+<text x='264.4' y='290' font-size='9' fill='#444' transform='rotate(-60 264.4 290)'>2026-05-31</text>
+<rect x='281.5' y='276.9' width='30.2' height='5.1' fill='#1f4e79'>
+<title>2026-06-01: 140</title></rect>
+<text x='296.6' y='290' font-size='9' fill='#444' transform='rotate(-60 296.6 290)'>2026-06-01</text>
+<rect x='313.7' y='281.9' width='30.2' height='0.1' fill='#1f4e79'>
+<title>2026-06-02: 4</title></rect>
+<text x='328.8' y='290' font-size='9' fill='#444' transform='rotate(-60 328.8 290)'>2026-06-02</text>
+<rect x='345.9' y='281.8' width='30.2' height='0.2' fill='#1f4e79'>
+<title>2026-06-04: 5</title></rect>
+<text x='361.0' y='290' font-size='9' fill='#444' transform='rotate(-60 361.0 290)'>2026-06-04</text>
+<rect x='378.1' y='281.9' width='30.2' height='0.1' fill='#1f4e79'>
+<title>2026-06-05: 2</title></rect>
+<text x='393.2' y='290' font-size='9' fill='#444' transform='rotate(-60 393.2 290)'>2026-06-05</text>
+<rect x='410.4' y='281.6' width='30.2' height='0.4' fill='#1f4e79'>
+<title>2026-06-06: 12</title></rect>
+<text x='425.5' y='290' font-size='9' fill='#444' transform='rotate(-60 425.5 290)'>2026-06-06</text>
+<rect x='442.6' y='281.5' width='30.2' height='0.5' fill='#1f4e79'>
+<title>2026-06-07: 13</title></rect>
+<text x='457.7' y='290' font-size='9' fill='#444' transform='rotate(-60 457.7 290)'>2026-06-07</text>
+<rect x='474.8' y='281.5' width='30.2' height='0.5' fill='#1f4e79'>
+<title>2026-06-08: 14</title></rect>
+<text x='489.9' y='290' font-size='9' fill='#444' transform='rotate(-60 489.9 290)'>2026-06-08</text>
+<rect x='507.0' y='281.8' width='30.2' height='0.2' fill='#1f4e79'>
+<title>2026-06-09: 6</title></rect>
+<text x='522.1' y='290' font-size='9' fill='#444' transform='rotate(-60 522.1 290)'>2026-06-09</text>
+<rect x='539.2' y='281.8' width='30.2' height='0.2' fill='#1f4e79'>
+<title>2026-06-10: 6</title></rect>
+<text x='554.3' y='290' font-size='9' fill='#444' transform='rotate(-60 554.3 290)'>2026-06-10</text>
+<rect x='571.4' y='276.1' width='30.2' height='5.9' fill='#1f4e79'>
+<title>2026-06-11: 161</title></rect>
+<text x='586.5' y='290' font-size='9' fill='#444' transform='rotate(-60 586.5 290)'>2026-06-11</text>
+<rect x='603.6' y='187.3' width='30.2' height='94.7' fill='#1f4e79'>
+<title>2026-06-16: 2,603</title></rect>
+<text x='618.8' y='290' font-size='9' fill='#444' transform='rotate(-60 618.8 290)'>2026-06-16</text>
+<rect x='635.9' y='234.8' width='30.2' height='47.2' fill='#1f4e79'>
+<title>2026-06-17: 1,297</title></rect>
+<text x='651.0' y='290' font-size='9' fill='#444' transform='rotate(-60 651.0 290)'>2026-06-17</text>
+<rect x='668.1' y='44.0' width='30.2' height='238.0' fill='#1f4e79'>
+<title>2026-06-18: 6,543</title></rect>
+<text x='683.2' y='290' font-size='9' fill='#444' transform='rotate(-60 683.2 290)'>2026-06-18</text>
+<rect x='700.3' y='263.5' width='30.2' height='18.5' fill='#1f4e79'>
+<title>2026-06-19: 509</title></rect>
+<text x='715.4' y='290' font-size='9' fill='#444' transform='rotate(-60 715.4 290)'>2026-06-19</text>
+<rect x='732.5' y='258.1' width='30.2' height='23.9' fill='#1f4e79'>
+<title>2026-06-20: 657</title></rect>
+<text x='747.6' y='290' font-size='9' fill='#444' transform='rotate(-60 747.6 290)'>2026-06-20</text>
+<rect x='764.7' y='258.0' width='30.2' height='24.0' fill='#1f4e79'>
+<title>2026-06-21: 659</title></rect>
+<text x='779.8' y='290' font-size='9' fill='#444' transform='rotate(-60 779.8 290)'>2026-06-21</text>
+<rect x='796.9' y='243.0' width='30.2' height='39.0' fill='#1f4e79'>
+<title>2026-06-22: 1,071</title></rect>
+<text x='812.0' y='290' font-size='9' fill='#444' transform='rotate(-60 812.0 290)'>2026-06-22</text>
+<rect x='829.1' y='282.0' width='30.2' height='0.0' fill='#1f4e79'>
+<title>2026-06-23: 1</title></rect>
+<text x='844.2' y='290' font-size='9' fill='#444' transform='rotate(-60 844.2 290)'>2026-06-23</text>
+<rect x='861.4' y='282.0' width='30.2' height='0.0' fill='#1f4e79'>
+<title>2026-06-24: 1</title></rect>
+<text x='876.5' y='290' font-size='9' fill='#444' transform='rotate(-60 876.5 290)'>2026-06-24</text>
+<rect x='893.6' y='281.7' width='30.2' height='0.3' fill='#1f4e79'>
+<title>2026-07-01: 7</title></rect>
+<text x='908.7' y='290' font-size='9' fill='#444' transform='rotate(-60 908.7 290)'>2026-07-01</text>
+<rect x='925.8' y='281.5' width='30.2' height='0.5' fill='#1f4e79'>
+<title>2026-07-02: 14</title></rect>
+<text x='940.9' y='290' font-size='9' fill='#444' transform='rotate(-60 940.9 290)'>2026-07-02</text>
+<text x='12' y='52' font-size='10' fill='#666'>6,543</text>
+</svg>
