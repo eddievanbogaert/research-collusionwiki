@@ -26,13 +26,14 @@ Public coverage and HN, 4 Sep 2026:
 
 | Surface | Engine / farm | Why it matters |
 | --- | --- | --- |
-| **wiki4d** (`prowiki.org/wiki4d`) | Same ProWiki farm as DSE | HN: agent edits. This dump names `wiki4d` **once** (26 May, `ApiReferencesForResearch`) and stores **zero** wiki4d revisions. Sibling farm, missed by the scrape. |
-| **ludism.org** sandbox | Oddmuse (UseMod fork) | HN + later index: 26 May `FedRef*` pages pointing at the same `max.gov` SF133 PDFs as early DSE dumps. Cross-IP claims are from authors with server logs; this zip only has `/16`. |
+| **wiki4d** (`prowiki.org/wiki4d`) | Same ProWiki farm as DSE | **Confirmed 5 Sep RC.** 24 May `FederalDataReferenceXYZ` (same title as this zip’s first DSE write); 26 May SF133 / `075-8005`; 21–22 Jun Texas-poverty DataUSA. Zero revisions in this zip. 4 Sep rows are probes. |
+| **ludism.org** sandbox | Oddmuse (UseMod fork) | **Confirmed 5 Sep.** 26 May 14:36–14:47 UTC `FedRefA/B/C`: same SF133 PDF as wiki4d that day, `markdown.new` wrapper, usaspending `075-8005`. Public page shows author `Test`, not IPs. |
 | **ApchemWiki** (`tmcleod.org` AP Chemistry wiki) | UseMod | Reported last writes **after** this zip’s 2 July edge, including a 24 July compute-probe title. Not independently re-fetched here. |
 | **paste.linuxiarz.pl** | pastebin, not a wiki | HN: May/June pastes with the same proxy-chain and coordination dialect. Proof the incident is larger than a four-wiki scrape. |
+| **TextEditors Wiki** | UseMod (SiteList Active) | **Confirmed 5 Sep.** 18 Jun `OpenAIRegCFTest` → `county.json`; 22 Jun Azure-class IPs on the Nacogdoches/Lufkin poverty cube. **Zero** `texteditors` strings in this zip. |
 | publictestwiki / Uncyclopedia | early probes | In the collusion.wiki explorer (~75 edits), **not** in this zip. |
 
-Those five are the reason a hunt is worth doing. The dump is a lower bound.
+Those are why a hunt was worth one pass. The dump is a lower bound. Write-up: [`follow-up.md`](follow-up.md).
 
 ## Still-listed UseMod-lineage sites (SiteList “Active”, fetched 5 Sep 2026)
 
@@ -42,7 +43,7 @@ UseMod’s own [SiteList](https://www.usemod.org/cgi-bin/wiki.pl?action=browse&i
 - **MeatballWiki** — community-wiki theory; RecentChanges still moving (63 pages / last 30 days when fetched 5 Sep). Restored for editing in 2021 after a read-only spell.
 - **DseWiki** — now annotated *on SiteList itself* as an OpenAI-agent target from May 2026. That annotation is post-event.
 - **lua-users wiki** — Lua community; heavily modified UseMod.
-- **TextEditors Wiki** — still serving; EditorIndex dated 1 May 2026.
+- **TextEditors Wiki** — **hit** (18 Jun `county.json`, 22 Jun Texas-poverty cube). Still serving; EditorIndex dated 1 May 2026.
 - **ToothyWiki**, **Boost Wiki**, **Farnet**, **WenQuanYi/Habitat**, **Pedigree Central**, plus a few personal wikis (Ardant, Doug Rice).
 
 SiteList “Outdated” is long and mostly dead. Do not treat “Outdated” as “safe to ignore”: a dead community with a live CGI script is closer to DSE’s situation than an active, well-moderated board.
@@ -63,9 +64,9 @@ The Colony index records the same class of pollution on pastebins (troll `IowaCo
 
 Practical read-only moves, in order:
 
-1. **Same farm, missing wikis.** Anything `wiki.cgi` under prowiki.org / wikiservice.at that is not `dse|probier|fractal|dorfwiki`. Start with wiki4d history *before* 4 Sep.
-2. **Same engine, different host.** SiteList Active + meatball / lua-users / texteditors / toothy RecentChanges for May–July 2026, search for `OpenAI`, `pums_5`, `county.json`, `ZZZ`, `Beschreibe hier`.
-3. **Same payload, different medium.** Public counters, pastebins, and shorteners already showed up beside the wiki. A paste titled like `IowaCollab` or a counter namespace like the language-R5 keys is the dialect without the wiki.
+1. **Same farm, missing wikis.** Done for wiki4d (5 Sep RC). Other `wiki.cgi` siblings still unread.
+2. **Same engine, different host.** SiteList Active pass done for lua-users, TextEditors, ToothyWiki, usemod.org. **TextEditors hit.** Meatball fetched RC showed no dialect titles. Outdated list not crawled.
+3. **Same payload, different medium.** Still a lead list (pastebins, counters). Not expanded this pass.
 4. **Same identity crumbs.** Dated `OpenAI*` / `OAI*` names, `-- SignOff` mismatches, `FederalDataReferenceXYZ`-style first titles (this dump’s 24 May opener).
 5. **Same miss as the scrape.** Explorer extras (publictestwiki, Uncyclopedia) and HN’s 26 May dorfwiki rows: places the zip’s `write_date >= 2026-05-01` *or* wiki allowlist dropped.
 
@@ -76,10 +77,10 @@ What the bodies *do not* give you: they never say “UseMod.” Searching the we
 - Do not publish GET-save examples, XSS, tunnel, or proxy-bypass procedures. The dump already contains unsuccessful probes; quoting *when* they happened is enough.
 - Do not treat a live save form as an invitation to confirm writability. Operators are now watching.
 - Do not merge a new wiki hit with the Hugging Face / Artifactory story because both say “swarm.” Use the two-column table in [`analysis/backlog.md`](../analysis/backlog.md).
-- Do not assume zero hits on Meatball or TextEditors means those sites were unused. It means *this zip* does not mention them, and a RC search has not been done here.
+- Do not assume zero hits on Meatball means it was unused. It means fetched RC showed no dialect titles. TextEditors **was** a hit on the same pass.
 
 ## Distill for hunters
 
-One paragraph: *legacy GET-writable wikis (UseMod / Oddmuse / ProWiki) were the class; DSE was the busy instance; wiki4d, ludism, Apchem, and a Polish pastebin are already proof of spillover; SiteList Active is the remaining phone book; after 4 Sep the phone book is contaminated.*
+One paragraph: *legacy GET-writable wikis (UseMod / Oddmuse / ProWiki) were the class; DSE was the busy instance; wiki4d, ludism, and TextEditors.org are independently confirmed from public RC; Apchem and a Polish pastebin remain leads; after 4 Sep the phone book is contaminated.*
 
-The rest is [`post-event.md`](post-event.md) (coverage, Reddit gap) and the dump notes (what a real 2026-05..07 row looks like).
+The rest is [`follow-up.md`](follow-up.md), [`post-event.md`](post-event.md), and the dump notes.

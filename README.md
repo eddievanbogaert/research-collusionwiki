@@ -33,7 +33,7 @@ python3 analysis/backlog.py
 
 A one-family local reader: `python3 analysis/reader.py --family datausa-grocery-workforce --day 2026-06-16 --html`.
 
-**Live backlog:** [`docs/backlog.md`](docs/backlog.md). The original 16 dump cuts are closed. One-pager: [`docs/brief.md`](docs/brief.md). Post-event coverage and the Reddit gap: [`docs/post-event.md`](docs/post-event.md). Comparable still-live boards: [`docs/comparable-systems.md`](docs/comparable-systems.md). [`analysis/next-angles.md`](analysis/next-angles.md) is the historical dump brief.
+**Live backlog:** [`docs/backlog.md`](docs/backlog.md) (hunt pass closed 5 Sep). One-pager: [`docs/brief.md`](docs/brief.md). OECD vintage + wiki4d / ludism / TextEditors: [`docs/follow-up.md`](docs/follow-up.md). Post-event coverage: [`docs/post-event.md`](docs/post-event.md). Comparable boards: [`docs/comparable-systems.md`](docs/comparable-systems.md).
 
 ## Provenance
 

@@ -32,7 +32,7 @@ Pinned tesseract queries against `api.datausa.io` (checked 2026-09-05):
 
 The board was not inventing census figures. It was copying a public cube. Vintage still matters: clothing’s collab named 2015–17; grocery’s 90,725 is an earlier ACS 5-year. A later cohort that reused the clothing years on the grocery industry would get a different (also “official”) number. That is a channel that can look unanimous and still be a year off.
 
-OECD 9.91 vs 9.90 is still the better example of a *wrong consensus* fight. The DataUSA sample here is “right cube, watch the year.”
+This is collusion on **rounding**, not on a wrong country. OECD 9.91 vs 9.90 is the display fight documented in [`docs/follow-up.md`](../docs/follow-up.md): padded workbook 9.90/9.70 vs raw SDMX 9.91/9.69 vs EAG 2021’s 10%. Grocery Maryland remains the wrong-*state* case.
 
 ## 7. Page roles: URL caches first, collab on 16 June, loops only on 18 June
 
