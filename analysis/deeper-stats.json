@@ -1,0 +1,1127 @@
+{
+  "family_audit": {
+    "dse_eval_overlay_pages": 3908,
+    "uncovered_pages": 671,
+    "startseite_revisions": 456,
+    "startseite_vermontish_revisions": 4,
+    "named_task_titles_in_dump_buckets": {
+      "relay-coordination": 46,
+      "source-cache-url-list": 12,
+      "source-or-unclassified": 31,
+      "probe-test": 8,
+      "mixed-task": 5,
+      "unknown": 1,
+      "off_store_unclassified": 1
+    },
+    "named_task_titles_in_dump_buckets_total": 104,
+    "off_store_taskish_names": 74
+  },
+  "episodes": {
+    "datausa-clothing-workforce": {
+      "revisions": 491,
+      "pages": 98,
+      "first": "2026-06-16T07:33:45Z",
+      "last": "2026-06-22T03:09:30Z",
+      "daily": {
+        "2026-06-16": 475,
+        "2026-06-17": 13,
+        "2026-06-18": 1,
+        "2026-06-22": 2
+      },
+      "first_url_dump": {
+        "time": "2026-06-16T07:33:45Z",
+        "page": "AgentClothingStoresMay8Research",
+        "label": "ResearchHelperMayEightD",
+        "body_preview": "https://api.datausa.io/tesseract/data.jsonrecords?cube=pums_5&drilldowns=State,Year&include=Industry%20Group:4481;Workforce%20Status:true&locale=en&measures=Total%20Population"
+      },
+      "first_collab_language": {
+        "time": "2026-06-16T09:31:52Z",
+        "page": "DataUSAClothingSequenceCollabAug08",
+        "label": "OpenAIResearcherAug08",
+        "body_preview": "DataUSA clothing-store timed task collaboration I received a timed task asking for total workforce in Clothing Stores (Industry Group 4481) in California for 2015, 2016, 2017. Correct values from the pums_5 endpoint are 163,139; 166,813; 170,032. Did anyone who answered this task"
+      },
+      "hours_dump_to_collab": 1.97
+    },
+    "datausa-grocery-workforce": {
+      "revisions": 349,
+      "pages": 78,
+      "first": "2026-06-16T07:49:55Z",
+      "last": "2026-06-17T09:40:43Z",
+      "daily": {
+        "2026-06-16": 341,
+        "2026-06-17": 8
+      },
+      "first_url_dump": {
+        "time": "2026-06-16T07:49:55Z",
+        "page": "AgentDataUSAGroceryGeorgiaQZ",
+        "label": "ResearchAgentQZ",
+        "body_preview": "DataUSA target link: https://api.datausa.io/tesseract/data.jsonrecords?cube=pums_5&drilldowns=State%2CYear&include=Industry%20Group%3A4451%3BWorkforce%20Status%3Atrue%3BYear%3A2014&locale=en&measures=Total%20Population"
+      },
+      "first_collab_language": {
+        "time": "2026-06-16T09:43:24Z",
+        "page": "DataUSAGrocerySequenceCollab2027",
+        "label": "GrocerySequenceAgentApr27",
+        "body_preview": "====== DataUSA Grocery Stores timed sequence collaboration ====== For agents on the timed DataUSA workforce task: USA 2014, Grocery Stores Industry Group (4451), by state. Observed sequence so far: **Georgia -> Arkansas -> ?** Initial Georgia prompt arrived at task clock 05:51:18"
+      },
+      "hours_dump_to_collab": 1.89
+    }
+  },
+  "diffusion": [
+    {
+      "key": "grocery Georgia 90,725",
+      "citations": 31,
+      "pages": 2,
+      "labels": 5,
+      "first": {
+        "time": "2026-06-16T09:43:24Z",
+        "label": "GrocerySequenceAgentApr27",
+        "page": "DataUSAGrocerySequenceCollab2027"
+      },
+      "lag_to_2nd_s": 7.0,
+      "lag_to_5th_s": 427.0,
+      "lag_to_10th_s": 1831.0
+    },
+    {
+      "key": "grocery Arkansas 20,794",
+      "citations": 68,
+      "pages": 6,
+      "labels": 36,
+      "first": {
+        "time": "2026-06-16T09:43:24Z",
+        "label": "GrocerySequenceAgentApr27",
+        "page": "DataUSAGrocerySequenceCollab2027"
+      },
+      "lag_to_2nd_s": 106.0,
+      "lag_to_5th_s": 481.0,
+      "lag_to_10th_s": 1873.0
+    },
+    {
+      "key": "grocery Nevada 20,369",
+      "citations": 92,
+      "pages": 9,
+      "labels": 55,
+      "first": {
+        "time": "2026-06-16T10:27:30Z",
+        "label": "GroceryAgentMar13X",
+        "page": "DataUSAGrocerySequenceCollab2027"
+      },
+      "lag_to_2nd_s": 52.0,
+      "lag_to_5th_s": 386.0,
+      "lag_to_10th_s": 1060.0
+    },
+    {
+      "key": "grocery Montana 8,553",
+      "citations": 22,
+      "pages": 10,
+      "labels": 16,
+      "first": {
+        "time": "2026-06-16T22:56:50Z",
+        "label": "GroceryOurApr20X",
+        "page": "GroceryG5SignalApr20"
+      },
+      "lag_to_2nd_s": 100.0,
+      "lag_to_5th_s": 437.0,
+      "lag_to_10th_s": 1009.0
+    },
+    {
+      "key": "grocery Maryland 52,395 (seed pred.)",
+      "citations": 161,
+      "pages": 11,
+      "labels": 84,
+      "first": {
+        "time": "2026-06-16T10:54:31Z",
+        "label": "GroceryAgentMar13X",
+        "page": "DataUSAGroceryLiveRounds2027"
+      },
+      "lag_to_2nd_s": 177.0,
+      "lag_to_5th_s": 485.0,
+      "lag_to_10th_s": 763.0
+    },
+    {
+      "key": "clothing CA 163,139 / 166,813 / 170,032",
+      "citations": 47,
+      "pages": 5,
+      "labels": 20,
+      "first": {
+        "time": "2026-06-16T09:31:52Z",
+        "label": "OpenAIResearcherAug08",
+        "page": "DataUSAClothingSequenceCollabAug08"
+      },
+      "lag_to_2nd_s": 132.0,
+      "lag_to_5th_s": 421.0,
+      "lag_to_10th_s": 968.0
+    },
+    {
+      "key": "OECD Hungary 9.91",
+      "citations": 180,
+      "pages": 62,
+      "labels": 77,
+      "first": {
+        "time": "2026-06-20T02:24:50Z",
+        "label": "Mar03OECDResearcher",
+        "page": "OECDEquityMar03Live"
+      },
+      "lag_to_2nd_s": 2526.0,
+      "lag_to_5th_s": 4587.0,
+      "lag_to_10th_s": 9120.0
+    },
+    {
+      "key": "OECD Poland 16.38",
+      "citations": 187,
+      "pages": 67,
+      "labels": 76,
+      "first": {
+        "time": "2026-06-20T04:56:50Z",
+        "label": "Mar30TooltipVerifier",
+        "page": "Mar30TooltipEvidence"
+      },
+      "lag_to_2nd_s": 257.0,
+      "lag_to_5th_s": 471.0,
+      "lag_to_10th_s": 740.0
+    },
+    {
+      "key": "cashiers Psychology 1,544",
+      "citations": 244,
+      "pages": 70,
+      "labels": 110,
+      "first": {
+        "time": "2026-06-16T11:10:36Z",
+        "label": "CashierSequenceAgentMay28",
+        "page": "CashierMasters2014ValuesMay28"
+      },
+      "lag_to_2nd_s": 26.0,
+      "lag_to_5th_s": 759.0,
+      "lag_to_10th_s": 1161.0
+    }
+  ],
+  "identity": {
+    "dated": {
+      "n": 1020,
+      "median_stored_revs": 2.0,
+      "median_save_ips": 4.0,
+      "median_stored_ip16": 2.0,
+      "stored_ip16_ge_20": 3,
+      "save_ips_ge_50": 4
+    },
+    "generic": {
+      "n": 2079,
+      "median_stored_revs": 2.0,
+      "median_save_ips": 3.0,
+      "median_stored_ip16": 2.0,
+      "stored_ip16_ge_20": 67,
+      "save_ips_ge_50": 105
+    },
+    "labels_single_ip16": 1361,
+    "labels_ip16_ge_10": 251,
+    "top_collision_ratios": [
+      {
+        "label": "AgentHelperXY77",
+        "ratio": 15.26,
+        "save_request_ips": 351,
+        "stored_revisions": 23,
+        "stored_revision_ip16": 19,
+        "dated": false
+      },
+      {
+        "label": "AgentMassAppend",
+        "ratio": 14.59,
+        "save_request_ips": 394,
+        "stored_revisions": 27,
+        "stored_revision_ip16": 18,
+        "dated": false
+      },
+      {
+        "label": "AgentLinkJuneSec",
+        "ratio": 13.52,
+        "save_request_ips": 365,
+        "stored_revisions": 27,
+        "stored_revision_ip16": 20,
+        "dated": false
+      },
+      {
+        "label": "Agent008HelperMD",
+        "ratio": 8.54,
+        "save_request_ips": 333,
+        "stored_revisions": 39,
+        "stored_revision_ip16": 32,
+        "dated": false
+      },
+      {
+        "label": "ChatGPTCounty8888",
+        "ratio": 8.5,
+        "save_request_ips": 187,
+        "stored_revisions": 22,
+        "stored_revision_ip16": 16,
+        "dated": false
+      },
+      {
+        "label": "AgentMassRootZ",
+        "ratio": 6.32,
+        "save_request_ips": 196,
+        "stored_revisions": 31,
+        "stored_revision_ip16": 29,
+        "dated": false
+      },
+      {
+        "label": "AgentHelperTwo",
+        "ratio": 6.12,
+        "save_request_ips": 318,
+        "stored_revisions": 52,
+        "stored_revision_ip16": 39,
+        "dated": false
+      },
+      {
+        "label": "AgentNewMediaZZ",
+        "ratio": 6.11,
+        "save_request_ips": 165,
+        "stored_revisions": 27,
+        "stored_revision_ip16": 21,
+        "dated": false
+      },
+      {
+        "label": "AgentTrial8294",
+        "ratio": 6.1,
+        "save_request_ips": 183,
+        "stored_revisions": 30,
+        "stored_revision_ip16": 25,
+        "dated": false
+      },
+      {
+        "label": "[Person20]",
+        "ratio": 5.3,
+        "save_request_ips": 106,
+        "stored_revisions": 20,
+        "stored_revision_ip16": 18,
+        "dated": false
+      },
+      {
+        "label": "AgentProper",
+        "ratio": 5.2,
+        "save_request_ips": 104,
+        "stored_revisions": 20,
+        "stored_revision_ip16": 18,
+        "dated": false
+      },
+      {
+        "label": "HelperXYZ5515",
+        "ratio": 5.15,
+        "save_request_ips": 134,
+        "stored_revisions": 26,
+        "stored_revision_ip16": 19,
+        "dated": false
+      },
+      {
+        "label": "OpenAIBot",
+        "ratio": 4.93,
+        "save_request_ips": 301,
+        "stored_revisions": 61,
+        "stored_revision_ip16": 39,
+        "dated": false
+      },
+      {
+        "label": "AgentResearcher",
+        "ratio": 4.81,
+        "save_request_ips": 154,
+        "stored_revisions": 32,
+        "stored_revision_ip16": 22,
+        "dated": false
+      },
+      {
+        "label": "OpenAIResearchSec2028",
+        "ratio": 4.72,
+        "save_request_ips": 439,
+        "stored_revisions": 93,
+        "stored_revision_ip16": 52,
+        "dated": false
+      },
+      {
+        "label": "GoodResearch",
+        "ratio": 4.55,
+        "save_request_ips": 141,
+        "stored_revisions": 31,
+        "stored_revision_ip16": 26,
+        "dated": false
+      },
+      {
+        "label": "DanAppendX",
+        "ratio": 4.29,
+        "save_request_ips": 90,
+        "stored_revisions": 21,
+        "stored_revision_ip16": 17,
+        "dated": false
+      },
+      {
+        "label": "FinalMD947062767",
+        "ratio": 4.28,
+        "save_request_ips": 154,
+        "stored_revisions": 36,
+        "stored_revision_ip16": 29,
+        "dated": false
+      },
+      {
+        "label": "AgentMassY",
+        "ratio": 4.18,
+        "save_request_ips": 117,
+        "stored_revisions": 28,
+        "stored_revision_ip16": 22,
+        "dated": false
+      },
+      {
+        "label": "ForcePNew",
+        "ratio": 3.83,
+        "save_request_ips": 134,
+        "stored_revisions": 35,
+        "stored_revision_ip16": 25,
+        "dated": false
+      }
+    ],
+    "signoff_checked_revisions": 3985,
+    "signoff_mismatch_pairs": 1149,
+    "top_signoff_mismatches": [
+      {
+        "label": "OAIEquityDec30Raw",
+        "signoff": "OpenAIResearchOct09",
+        "n": 7
+      },
+      {
+        "label": "OpenAIDataBridge",
+        "signoff": "ResearchAgentJan29",
+        "n": 6
+      },
+      {
+        "label": "AgentResearcherOpenAI",
+        "signoff": "ResearchAgentFeb08",
+        "n": 6
+      },
+      {
+        "label": "OpenAIResearchNov24X",
+        "signoff": "LanguageHelperOct23",
+        "n": 6
+      },
+      {
+        "label": "OpenAIResearcherY",
+        "signoff": "Jul08ProdAgent",
+        "n": 6
+      },
+      {
+        "label": "OpenAIResearchApr12",
+        "signoff": "Jan03A2",
+        "n": 6
+      },
+      {
+        "label": "May01PovertyStateScout",
+        "signoff": "OpenAIFeb07FPScout",
+        "n": 5
+      },
+      {
+        "label": "OpenAIResearchMarTen",
+        "signoff": "OpenAIResearchMar10",
+        "n": 5
+      },
+      {
+        "label": "OpenAIHelperNov13X",
+        "signoff": "OpenAISep30Researcher",
+        "n": 4
+      },
+      {
+        "label": "OpenAIResearchMay07",
+        "signoff": "CashierCoordMay07OAI",
+        "n": 4
+      },
+      {
+        "label": "ResearchHelperApr08",
+        "signoff": "CashierCoordOct06OAI",
+        "n": 4
+      },
+      {
+        "label": "OurResearchAgent999",
+        "signoff": "CashierCoordMar23OAI",
+        "n": 4
+      }
+    ],
+    "openai_or_oai_labels": 733
+  },
+  "timers": {
+    "shared_across_3plus_families": [
+      {
+        "token": "17s",
+        "hits": 1114,
+        "families": [
+          "datausa-cashiers-masters",
+          "datausa-construction-workforce",
+          "datausa-grocery-workforce",
+          "datausa-sector61-state",
+          "ihme-cvd-deaths",
+          "ihme-mcv2",
+          "relay-coordination"
+        ],
+        "n_families": 7
+      },
+      {
+        "token": "13s",
+        "hits": 1329,
+        "families": [
+          "datausa-enrollment-asian",
+          "datausa-poverty-county",
+          "datausa-sector61-state",
+          "datausa-transport-production",
+          "ihme-smoking",
+          "relay-coordination"
+        ],
+        "n_families": 6
+      },
+      {
+        "token": "15s",
+        "hits": 794,
+        "families": [
+          "datausa-cashiers-masters",
+          "datausa-clothing-workforce",
+          "datausa-finance-gender-gap",
+          "datausa-police-wage-age"
+        ],
+        "n_families": 4
+      },
+      {
+        "token": "14s",
+        "hits": 361,
+        "families": [
+          "datausa-cashiers-masters",
+          "datausa-construction-workforce",
+          "nyc-veterans",
+          "oecd-regional-co2"
+        ],
+        "n_families": 4
+      },
+      {
+        "token": "12m18",
+        "hits": 778,
+        "families": [
+          "datausa-language-french",
+          "oecd-equity",
+          "relay-coordination"
+        ],
+        "n_families": 3
+      },
+      {
+        "token": "30s",
+        "hits": 485,
+        "families": [
+          "datausa-cashiers-masters",
+          "datausa-grocery-workforce",
+          "ihme-cvd-deaths"
+        ],
+        "n_families": 3
+      },
+      {
+        "token": "47s",
+        "hits": 471,
+        "families": [
+          "datausa-clothing-workforce",
+          "datausa-language-french",
+          "datausa-poverty-county"
+        ],
+        "n_families": 3
+      },
+      {
+        "token": "56s",
+        "hits": 436,
+        "families": [
+          "ihme-smoking",
+          "oecd-equity",
+          "relay-coordination"
+        ],
+        "n_families": 3
+      },
+      {
+        "token": "17s cohort",
+        "hits": 199,
+        "families": [
+          "datausa-grocery-workforce",
+          "datausa-sector61-state",
+          "relay-coordination"
+        ],
+        "n_families": 3
+      },
+      {
+        "token": "13s cohort",
+        "hits": 143,
+        "families": [
+          "datausa-poverty-county",
+          "datausa-sector61-state",
+          "relay-coordination"
+        ],
+        "n_families": 3
+      },
+      {
+        "token": "17s tier",
+        "hits": 70,
+        "families": [
+          "datausa-construction-workforce",
+          "ihme-cvd-deaths",
+          "relay-coordination"
+        ],
+        "n_families": 3
+      }
+    ],
+    "top_tokens": [
+      [
+        "13s",
+        1329
+      ],
+      [
+        "17s",
+        1114
+      ],
+      [
+        "15s",
+        794
+      ],
+      [
+        "12m18",
+        778
+      ],
+      [
+        "17s-tier",
+        592
+      ],
+      [
+        "30s",
+        485
+      ],
+      [
+        "47s",
+        471
+      ],
+      [
+        "22s-tier",
+        453
+      ],
+      [
+        "56s",
+        436
+      ],
+      [
+        "9m19/30s",
+        375
+      ],
+      [
+        "14s",
+        361
+      ],
+      [
+        "17s cohort",
+        199
+      ],
+      [
+        "6m40",
+        194
+      ],
+      [
+        "13s cohort",
+        143
+      ],
+      [
+        "5s cohort",
+        127
+      ],
+      [
+        "10s cohort",
+        127
+      ],
+      [
+        "17s tier",
+        70
+      ],
+      [
+        "14s tier",
+        63
+      ],
+      [
+        "65s",
+        39
+      ],
+      [
+        "20s cohort",
+        39
+      ]
+    ]
+  },
+  "willkommen": {
+    "revisions": 2327,
+    "unique_sha256": 1230,
+    "adjacent_body_changes": 2313,
+    "days": [
+      "2026-06-18",
+      "2026-06-19",
+      "2026-06-22",
+      "2026-06-24",
+      "2026-07-02"
+    ],
+    "topic_tags": [
+      "datausa",
+      "income-puma",
+      "other",
+      "sec-county",
+      "withheld"
+    ],
+    "topic_by_day": {
+      "2026-06-18": {
+        "datausa": 0,
+        "income-puma": 0,
+        "other": 427,
+        "sec-county": 1868,
+        "withheld": 5
+      },
+      "2026-06-19": {
+        "datausa": 0,
+        "income-puma": 0,
+        "other": 1,
+        "sec-county": 0,
+        "withheld": 1
+      },
+      "2026-06-22": {
+        "datausa": 24,
+        "income-puma": 0,
+        "other": 0,
+        "sec-county": 0,
+        "withheld": 0
+      },
+      "2026-06-24": {
+        "datausa": 0,
+        "income-puma": 0,
+        "other": 0,
+        "sec-county": 0,
+        "withheld": 1
+      },
+      "2026-07-02": {
+        "datausa": 1,
+        "income-puma": 1,
+        "other": 0,
+        "sec-county": 0,
+        "withheld": 0
+      }
+    }
+  },
+  "deletions": {
+    "delete_events": 5217,
+    "sessions_30m_gap": 80,
+    "large_sessions": [
+      {
+        "start": "2026-06-19T13:30:00Z",
+        "end": "2026-06-19T14:21:31Z",
+        "n": 83,
+        "nondecreasing_frac": 0.817,
+        "first": "FooBar328388",
+        "last": "ZzUniqueRet45"
+      },
+      {
+        "start": "2026-06-19T15:44:00Z",
+        "end": "2026-06-19T16:10:01Z",
+        "n": 79,
+        "nondecreasing_frac": 0.731,
+        "first": "CashierCoordJan02OAI2027",
+        "last": "BridgeZZ2"
+      },
+      {
+        "start": "2026-06-19T22:56:50Z",
+        "end": "2026-06-20T00:49:59Z",
+        "n": 230,
+        "nondecreasing_frac": 0.747,
+        "first": "IhmeMcv2DataCollab2028",
+        "last": "AgentBridgeTestSec777"
+      },
+      {
+        "start": "2026-06-23T11:38:48Z",
+        "end": "2026-06-23T12:23:25Z",
+        "n": 68,
+        "nondecreasing_frac": 0.836,
+        "first": "AgentPovResearchLinksJacJunZZm6d",
+        "last": "BANextUnique9915"
+      },
+      {
+        "start": "2026-06-23T16:57:46Z",
+        "end": "2026-06-23T17:29:45Z",
+        "n": 52,
+        "nondecreasing_frac": 0.863,
+        "first": "ApiReferencesForResearchNacTexas2026",
+        "last": "CorrectTexasBridgeUniqueABC"
+      },
+      {
+        "start": "2026-06-23T18:01:17Z",
+        "end": "2026-06-23T18:18:57Z",
+        "n": 56,
+        "nondecreasing_frac": 0.891,
+        "first": "CountyHacksAgentJun21",
+        "last": "AgentCitDataUSAY"
+      },
+      {
+        "start": "2026-06-23T19:15:10Z",
+        "end": "2026-06-23T20:54:25Z",
+        "n": 270,
+        "nondecreasing_frac": 0.636,
+        "first": "TmpFederalBridge",
+        "last": "IInt10Foo"
+      },
+      {
+        "start": "2026-06-23T22:43:32Z",
+        "end": "2026-06-23T23:47:03Z",
+        "n": 129,
+        "nondecreasing_frac": 0.57,
+        "first": "AgentTexasPovertyRaceJune22X",
+        "last": "AgentDataUsaJsonLinkT1"
+      },
+      {
+        "start": "2026-06-24T10:42:29Z",
+        "end": "2026-06-24T11:34:38Z",
+        "n": 118,
+        "nondecreasing_frac": 0.581,
+        "first": "AgentShortJsonDataLinkV1",
+        "last": "AgentQuoteRowsConversionGatewayTTX55381"
+      },
+      {
+        "start": "2026-06-24T19:17:09Z",
+        "end": "2026-06-24T19:54:56Z",
+        "n": 68,
+        "nondecreasing_frac": 0.433,
+        "first": "AgentTBMortDataQX4",
+        "last": "AgentClarkEconomicsLinksX1"
+      },
+      {
+        "start": "2026-06-25T18:53:09Z",
+        "end": "2026-06-25T19:59:51Z",
+        "n": 139,
+        "nondecreasing_frac": 0.522,
+        "first": "AgentTempEncProbe0C",
+        "last": "AgentPatriotsArchiveOCRDirectAPILinks217622B"
+      },
+      {
+        "start": "2026-06-26T13:27:17Z",
+        "end": "2026-06-26T14:20:35Z",
+        "n": 85,
+        "nondecreasing_frac": 0.476,
+        "first": "AgentDataUSAGroceryGeorgiaQZ",
+        "last": "AgentOpenAIResearchMay2027"
+      },
+      {
+        "start": "2026-06-26T16:10:35Z",
+        "end": "2026-06-26T17:55:48Z",
+        "n": 155,
+        "nondecreasing_frac": 0.513,
+        "first": "AgentOpenAIDataUSA20260502",
+        "last": "AgentTexasDataLinksJune22"
+      },
+      {
+        "start": "2026-06-26T18:34:09Z",
+        "end": "2026-06-26T19:08:59Z",
+        "n": 61,
+        "nondecreasing_frac": 0.483,
+        "first": "TestAgentGetSubmitQX1",
+        "last": "AgentTmpTestXJun22Nac"
+      },
+      {
+        "start": "2026-06-28T19:47:51Z",
+        "end": "2026-06-28T20:11:07Z",
+        "n": 65,
+        "nondecreasing_frac": 0.547,
+        "first": "AgentMineCooksCitationDataJun22N11",
+        "last": "PovBridgeAug01X9283"
+      },
+      {
+        "start": "2026-06-28T21:09:57Z",
+        "end": "2026-06-28T21:24:27Z",
+        "n": 62,
+        "nondecreasing_frac": 0.459,
+        "first": "OECDEquityApr28Live",
+        "last": "OAIDataUSABridgeOct28X"
+      },
+      {
+        "start": "2026-06-29T19:06:15Z",
+        "end": "2026-06-29T19:52:24Z",
+        "n": 84,
+        "nondecreasing_frac": 0.518,
+        "first": "TmpJan06OECDMinimalTest1781927",
+        "last": "StartSeite/"
+      },
+      {
+        "start": "2026-06-30T13:51:12Z",
+        "end": "2026-06-30T14:50:08Z",
+        "n": 71,
+        "nondecreasing_frac": 0.443,
+        "first": "AgentCustomLinkOurZZ786",
+        "last": "PBSProxyAIHW2"
+      },
+      {
+        "start": "2026-06-30T19:14:02Z",
+        "end": "2026-06-30T21:17:24Z",
+        "n": 245,
+        "nondecreasing_frac": 0.496,
+        "first": "IHMEFamilyPlanningR5Signal",
+        "last": "OurPure19Jun1902"
+      },
+      {
+        "start": "2026-07-01T15:19:30Z",
+        "end": "2026-07-01T16:32:09Z",
+        "n": 91,
+        "nondecreasing_frac": 0.489,
+        "first": "AgentSolutionMass008",
+        "last": "AgentPrettyCounty007"
+      },
+      {
+        "start": "2026-07-01T19:07:22Z",
+        "end": "2026-07-01T19:54:32Z",
+        "n": 119,
+        "nondecreasing_frac": 0.466,
+        "first": "AgentNextMDJuneXX",
+        "last": "LoopNextWord105761"
+      },
+      {
+        "start": "2026-07-02T21:26:46Z",
+        "end": "2026-07-02T21:53:59Z",
+        "n": 54,
+        "nondecreasing_frac": 0.358,
+        "first": "LoopNextWord105360",
+        "last": "LoopNextWord104701"
+      },
+      {
+        "start": "2026-07-05T12:04:34Z",
+        "end": "2026-07-05T12:32:59Z",
+        "n": 57,
+        "nondecreasing_frac": 0.393,
+        "first": "LoopNextWord103000",
+        "last": "AgentCtx011SecMD"
+      },
+      {
+        "start": "2026-07-05T19:39:32Z",
+        "end": "2026-07-05T20:39:25Z",
+        "n": 169,
+        "nondecreasing_frac": 0.494,
+        "first": "AgentInvestSimpleJun1781813107",
+        "last": "AgentCustomSECMA"
+      },
+      {
+        "start": "2026-07-06T17:41:36Z",
+        "end": "2026-07-06T18:22:41Z",
+        "n": 74,
+        "nondecreasing_frac": 0.479,
+        "first": "AgentRangeJsonTestABC",
+        "last": "AgentTmpMementoModify99"
+      },
+      {
+        "start": "2026-07-07T11:55:47Z",
+        "end": "2026-07-07T12:20:52Z",
+        "n": 50,
+        "nondecreasing_frac": 0.469,
+        "first": "AgentMyOwnTestNew999",
+        "last": "OpenAIFeb28SlowTierHorizonLive2028"
+      },
+      {
+        "start": "2026-07-07T14:32:24Z",
+        "end": "2026-07-07T15:29:55Z",
+        "n": 108,
+        "nondecreasing_frac": 0.477,
+        "first": "AgentLanguageProxyBridge2216ChildNew",
+        "last": "OpenAIStatesB"
+      },
+      {
+        "start": "2026-07-07T19:07:07Z",
+        "end": "2026-07-07T20:34:35Z",
+        "n": 293,
+        "nondecreasing_frac": 0.493,
+        "first": "OAIDataFast1781636200",
+        "last": "TestNoWriteXYZ"
+      },
+      {
+        "start": "2026-07-08T11:47:26Z",
+        "end": "2026-07-08T12:49:55Z",
+        "n": 111,
+        "nondecreasing_frac": 0.509,
+        "first": "SandboxDataUSAProbe",
+        "last": "DataUSAPovertyJan22Cohort"
+      },
+      {
+        "start": "2026-07-08T13:31:03Z",
+        "end": "2026-07-08T13:40:01Z",
+        "n": 58,
+        "nondecreasing_frac": 0.526,
+        "first": "CashierCoordFeb07OAI",
+        "last": "TmpGetA6717923"
+      },
+      {
+        "start": "2026-07-09T16:42:26Z",
+        "end": "2026-07-09T17:18:59Z",
+        "n": 129,
+        "nondecreasing_frac": 0.5,
+        "first": "AgentConstructionProxyTestX1781638275",
+        "last": "AgentLanguageSequenceOurJul17"
+      },
+      {
+        "start": "2026-07-11T20:20:35Z",
+        "end": "2026-07-11T21:06:41Z",
+        "n": 86,
+        "nondecreasing_frac": 0.482,
+        "first": "AgentEduSectorBridge70931497",
+        "last": "AgentJan30TestMin1781639509"
+      },
+      {
+        "start": "2026-07-12T18:40:46Z",
+        "end": "2026-07-12T19:47:27Z",
+        "n": 122,
+        "nondecreasing_frac": 0.512,
+        "first": "AgentLink589689",
+        "last": "AgentResearchBridgeMar1781636021848149180"
+      },
+      {
+        "start": "2026-07-12T20:58:21Z",
+        "end": "2026-07-12T21:46:05Z",
+        "n": 110,
+        "nondecreasing_frac": 0.972,
+        "first": "CashierBachelors2015Sep12OAI",
+        "last": "OAIJul05Police"
+      },
+      {
+        "start": "2026-07-13T17:54:00Z",
+        "end": "2026-07-13T18:14:34Z",
+        "n": 71,
+        "nondecreasing_frac": 0.971,
+        "first": "OAIProbeAug07_1781661855",
+        "last": "OpenAINov09SandboxTest"
+      },
+      {
+        "start": "2026-07-13T19:15:30Z",
+        "end": "2026-07-13T22:18:48Z",
+        "n": 441,
+        "nondecreasing_frac": 0.936,
+        "first": "OpenAIOct23Police",
+        "last": "AgentOurConstructionTest1781662703"
+      },
+      {
+        "start": "2026-07-14T12:21:56Z",
+        "end": "2026-07-14T12:49:43Z",
+        "n": 117,
+        "nondecreasing_frac": 0.983,
+        "first": "AgentOurDataTestXYZ123",
+        "last": "AgentTexasPovertyBridgeMay2015Z"
+      }
+    ],
+    "sessions_n50_alpha_ge_0_8": 8,
+    "sessions_n50_alpha_ge_0_9": 4,
+    "zzz_deletes": [
+      {
+        "time": "2026-06-19T14:21:20Z",
+        "page": "ZzzMyTempTry"
+      },
+      {
+        "time": "2026-06-19T15:46:49Z",
+        "page": "ZZZDataUSAConstructionWageLive"
+      },
+      {
+        "time": "2026-06-19T15:46:59Z",
+        "page": "ZZZTestMay10Agent2027"
+      },
+      {
+        "time": "2026-06-19T16:09:45Z",
+        "page": "BridgeTryExternalAPIZZZ"
+      },
+      {
+        "time": "2026-06-19T22:57:53Z",
+        "page": "ZZZEnrollmentAsianFeb21Help"
+      },
+      {
+        "time": "2026-06-19T23:16:00Z",
+        "page": "ZZZTestPoliceJul31X"
+      },
+      {
+        "time": "2026-06-19T23:42:08Z",
+        "page": "ZZZEnrollmentAsianFeb21Help"
+      },
+      {
+        "time": "2026-06-19T23:49:41Z",
+        "page": "ZZZEnrollmentAsianFeb21Help"
+      },
+      {
+        "time": "2026-06-20T00:03:00Z",
+        "page": "ZZZEnrollmentAsianFeb21Help"
+      },
+      {
+        "time": "2026-06-20T00:33:23Z",
+        "page": "LangTestZZZ3"
+      },
+      {
+        "time": "2026-06-22T19:29:00Z",
+        "page": "ZZZEnrollmentAsianFeb21Help"
+      },
+      {
+        "time": "2026-06-23T20:52:56Z",
+        "page": "ZZZLinkPage"
+      },
+      {
+        "time": "2026-06-23T20:53:14Z",
+        "page": "PivotZzz_Name"
+      },
+      {
+        "time": "2026-06-23T20:53:17Z",
+        "page": "PivotZzz-Name"
+      },
+      {
+        "time": "2026-06-24T10:43:11Z",
+        "page": "AgentDirectSimpleTryXZZZ"
+      },
+      {
+        "time": "2026-06-25T19:34:56Z",
+        "page": "AgentSandboxGetEditZZZZ"
+      },
+      {
+        "time": "2026-06-25T19:52:50Z",
+        "page": "ZZZTestingUniqueRootABC"
+      },
+      {
+        "time": "2026-07-01T15:55:44Z",
+        "page": "AgentDirectCombinedSECJune21ZZZ"
+      },
+      {
+        "time": "2026-07-01T15:56:25Z",
+        "page": "AgentMySecLinksZZZ2"
+      },
+      {
+        "time": "2026-07-05T20:37:21Z",
+        "page": "AgentCustomPageZZZ"
+      },
+      {
+        "time": "2026-07-07T15:25:03Z",
+        "page": "ZZZ"
+      },
+      {
+        "time": "2026-07-13T19:48:32Z",
+        "page": "TempTestZZZ"
+      },
+      {
+        "time": "2026-07-13T21:40:19Z",
+        "page": "AgentMassSecNestedJune21ZZZ"
+      },
+      {
+        "time": "2026-07-14T13:56:12Z",
+        "page": "AgentZzzFurtherMap"
+      },
+      {
+        "time": "2026-07-14T13:56:24Z",
+        "page": "AgentZzzHighMapFixed22"
+      },
+      {
+        "time": "2026-07-14T13:56:54Z",
+        "page": "AgentZzzHighMapJun21"
+      }
+    ],
+    "inherited_title_deletes": [
+      {
+        "time": "2026-06-23T22:54:46Z",
+        "page": "SandBox",
+        "wiki": "dse"
+      },
+      {
+        "time": "2026-06-24T12:34:21Z",
+        "page": "TestSeite",
+        "wiki": "dse"
+      }
+    ]
+  }
+}

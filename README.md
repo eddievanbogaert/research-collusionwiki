@@ -23,15 +23,14 @@ Schema notes: [`docs/DATASET.md`](docs/DATASET.md).
 
 [`analysis/report.md`](analysis/report.md) is a second look at the files, not a restatement of the original findings page. It checks published counts, measures how the wiki was used (URL caches vs live relays), and flags identity collisions such as `AgentRelent`.
 
-[`analysis/next-angles.md`](analysis/next-angles.md) is a list of follow-up cuts: identity resolution, one-family ethnography, answer diffusion, seed-claim ledgers, deletion order, and a few others that this inventory pass does not attempt.
-
-Reproduce the numbers (Python 3 stdlib only):
+[`analysis/findings.md`](analysis/findings.md) is the ordered second pass: family-label errata, the 16 June clothing/grocery episodes, answer-copy lags, dated vs generic names, shared timer tiers, the welcome-page filmstrip, and a test of alphabetical deletion. Reproduce with:
 
 ```bash
 python3 analysis/analyze.py
+python3 analysis/deeper.py
 ```
 
-That refreshes `analysis/stats.json` and the SVG figures under `analysis/figures/`.
+[`analysis/next-angles.md`](analysis/next-angles.md) is the backlog. The ordered second pass is [`analysis/findings.md`](analysis/findings.md).
 
 ## Provenance
 

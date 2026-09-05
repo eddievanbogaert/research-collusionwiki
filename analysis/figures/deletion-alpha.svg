@@ -1,0 +1,118 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='980' height='360' font-family='ui-sans-serif, system-ui, sans-serif'>
+<rect width='100%' height='100%' fill='#fffef8'/>
+<text x='16' y='28' font-size='16' font-weight='600' fill='#111'>% of consecutive deletes that are A–Z nondecreasing (sessions ≥50)</text>
+<line x1='56' y1='44' x2='56' y2='282' stroke='#ccc'/>
+<line x1='56' y1='282' x2='956' y2='282' stroke='#ccc'/>
+<rect x='56.0' y='82.9' width='22.4' height='199.1' fill='#b45309'>
+<title>06-19T13:30: 82</title></rect>
+<text x='67.2' y='290' font-size='9' fill='#444' transform='rotate(-60 67.2 290)'>06-19T13:30</text>
+<rect x='80.4' y='104.7' width='22.4' height='177.3' fill='#b45309'>
+<title>06-19T15:44: 73</title></rect>
+<text x='91.6' y='290' font-size='9' fill='#444' transform='rotate(-60 91.6 290)'>06-19T15:44</text>
+<rect x='104.8' y='99.9' width='22.4' height='182.1' fill='#b45309'>
+<title>06-19T22:56: 75</title></rect>
+<text x='115.9' y='290' font-size='9' fill='#444' transform='rotate(-60 115.9 290)'>06-19T22:56</text>
+<rect x='129.1' y='78.0' width='22.4' height='204.0' fill='#b45309'>
+<title>06-23T11:38: 84</title></rect>
+<text x='140.3' y='290' font-size='9' fill='#444' transform='rotate(-60 140.3 290)'>06-23T11:38</text>
+<rect x='153.5' y='73.1' width='22.4' height='208.9' fill='#b45309'>
+<title>06-23T16:57: 86</title></rect>
+<text x='164.7' y='290' font-size='9' fill='#444' transform='rotate(-60 164.7 290)'>06-23T16:57</text>
+<rect x='177.9' y='65.9' width='22.4' height='216.1' fill='#b45309'>
+<title>06-23T18:01: 89</title></rect>
+<text x='189.1' y='290' font-size='9' fill='#444' transform='rotate(-60 189.1 290)'>06-23T18:01</text>
+<rect x='202.3' y='126.6' width='22.4' height='155.4' fill='#b45309'>
+<title>06-23T19:15: 64</title></rect>
+<text x='213.5' y='290' font-size='9' fill='#444' transform='rotate(-60 213.5 290)'>06-23T19:15</text>
+<rect x='226.6' y='143.6' width='22.4' height='138.4' fill='#b45309'>
+<title>06-23T22:43: 57</title></rect>
+<text x='237.8' y='290' font-size='9' fill='#444' transform='rotate(-60 237.8 290)'>06-23T22:43</text>
+<rect x='251.0' y='141.1' width='22.4' height='140.9' fill='#b45309'>
+<title>06-24T10:42: 58</title></rect>
+<text x='262.2' y='290' font-size='9' fill='#444' transform='rotate(-60 262.2 290)'>06-24T10:42</text>
+<rect x='275.4' y='177.6' width='22.4' height='104.4' fill='#b45309'>
+<title>06-24T19:17: 43</title></rect>
+<text x='286.6' y='290' font-size='9' fill='#444' transform='rotate(-60 286.6 290)'>06-24T19:17</text>
+<rect x='299.8' y='155.7' width='22.4' height='126.3' fill='#b45309'>
+<title>06-25T18:53: 52</title></rect>
+<text x='311.0' y='290' font-size='9' fill='#444' transform='rotate(-60 311.0 290)'>06-25T18:53</text>
+<rect x='324.2' y='165.4' width='22.4' height='116.6' fill='#b45309'>
+<title>06-26T13:27: 48</title></rect>
+<text x='335.4' y='290' font-size='9' fill='#444' transform='rotate(-60 335.4 290)'>06-26T13:27</text>
+<rect x='348.5' y='158.1' width='22.4' height='123.9' fill='#b45309'>
+<title>06-26T16:10: 51</title></rect>
+<text x='359.7' y='290' font-size='9' fill='#444' transform='rotate(-60 359.7 290)'>06-26T16:10</text>
+<rect x='372.9' y='165.4' width='22.4' height='116.6' fill='#b45309'>
+<title>06-26T18:34: 48</title></rect>
+<text x='384.1' y='290' font-size='9' fill='#444' transform='rotate(-60 384.1 290)'>06-26T18:34</text>
+<rect x='397.3' y='148.4' width='22.4' height='133.6' fill='#b45309'>
+<title>06-28T19:47: 55</title></rect>
+<text x='408.5' y='290' font-size='9' fill='#444' transform='rotate(-60 408.5 290)'>06-28T19:47</text>
+<rect x='421.7' y='170.3' width='22.4' height='111.7' fill='#b45309'>
+<title>06-28T21:09: 46</title></rect>
+<text x='432.9' y='290' font-size='9' fill='#444' transform='rotate(-60 432.9 290)'>06-28T21:09</text>
+<rect x='446.1' y='155.7' width='22.4' height='126.3' fill='#b45309'>
+<title>06-29T19:06: 52</title></rect>
+<text x='457.2' y='290' font-size='9' fill='#444' transform='rotate(-60 457.2 290)'>06-29T19:06</text>
+<rect x='470.4' y='175.1' width='22.4' height='106.9' fill='#b45309'>
+<title>06-30T13:51: 44</title></rect>
+<text x='481.6' y='290' font-size='9' fill='#444' transform='rotate(-60 481.6 290)'>06-30T13:51</text>
+<rect x='494.8' y='160.6' width='22.4' height='121.4' fill='#b45309'>
+<title>06-30T19:14: 50</title></rect>
+<text x='506.0' y='290' font-size='9' fill='#444' transform='rotate(-60 506.0 290)'>06-30T19:14</text>
+<rect x='519.2' y='163.0' width='22.4' height='119.0' fill='#b45309'>
+<title>07-01T15:19: 49</title></rect>
+<text x='530.4' y='290' font-size='9' fill='#444' transform='rotate(-60 530.4 290)'>07-01T15:19</text>
+<rect x='543.6' y='167.9' width='22.4' height='114.1' fill='#b45309'>
+<title>07-01T19:07: 47</title></rect>
+<text x='554.8' y='290' font-size='9' fill='#444' transform='rotate(-60 554.8 290)'>07-01T19:07</text>
+<rect x='567.9' y='194.6' width='22.4' height='87.4' fill='#b45309'>
+<title>07-02T21:26: 36</title></rect>
+<text x='579.1' y='290' font-size='9' fill='#444' transform='rotate(-60 579.1 290)'>07-02T21:26</text>
+<rect x='592.3' y='187.3' width='22.4' height='94.7' fill='#b45309'>
+<title>07-05T12:04: 39</title></rect>
+<text x='603.5' y='290' font-size='9' fill='#444' transform='rotate(-60 603.5 290)'>07-05T12:04</text>
+<rect x='616.7' y='163.0' width='22.4' height='119.0' fill='#b45309'>
+<title>07-05T19:39: 49</title></rect>
+<text x='627.9' y='290' font-size='9' fill='#444' transform='rotate(-60 627.9 290)'>07-05T19:39</text>
+<rect x='641.1' y='165.4' width='22.4' height='116.6' fill='#b45309'>
+<title>07-06T17:41: 48</title></rect>
+<text x='652.3' y='290' font-size='9' fill='#444' transform='rotate(-60 652.3 290)'>07-06T17:41</text>
+<rect x='665.5' y='167.9' width='22.4' height='114.1' fill='#b45309'>
+<title>07-07T11:55: 47</title></rect>
+<text x='676.6' y='290' font-size='9' fill='#444' transform='rotate(-60 676.6 290)'>07-07T11:55</text>
+<rect x='689.8' y='165.4' width='22.4' height='116.6' fill='#b45309'>
+<title>07-07T14:32: 48</title></rect>
+<text x='701.0' y='290' font-size='9' fill='#444' transform='rotate(-60 701.0 290)'>07-07T14:32</text>
+<rect x='714.2' y='163.0' width='22.4' height='119.0' fill='#b45309'>
+<title>07-07T19:07: 49</title></rect>
+<text x='725.4' y='290' font-size='9' fill='#444' transform='rotate(-60 725.4 290)'>07-07T19:07</text>
+<rect x='738.6' y='158.1' width='22.4' height='123.9' fill='#b45309'>
+<title>07-08T11:47: 51</title></rect>
+<text x='749.8' y='290' font-size='9' fill='#444' transform='rotate(-60 749.8 290)'>07-08T11:47</text>
+<rect x='763.0' y='153.3' width='22.4' height='128.7' fill='#b45309'>
+<title>07-08T13:31: 53</title></rect>
+<text x='774.2' y='290' font-size='9' fill='#444' transform='rotate(-60 774.2 290)'>07-08T13:31</text>
+<rect x='787.4' y='160.6' width='22.4' height='121.4' fill='#b45309'>
+<title>07-09T16:42: 50</title></rect>
+<text x='798.5' y='290' font-size='9' fill='#444' transform='rotate(-60 798.5 290)'>07-09T16:42</text>
+<rect x='811.7' y='165.4' width='22.4' height='116.6' fill='#b45309'>
+<title>07-11T20:20: 48</title></rect>
+<text x='822.9' y='290' font-size='9' fill='#444' transform='rotate(-60 822.9 290)'>07-11T20:20</text>
+<rect x='836.1' y='158.1' width='22.4' height='123.9' fill='#b45309'>
+<title>07-12T18:40: 51</title></rect>
+<text x='847.3' y='290' font-size='9' fill='#444' transform='rotate(-60 847.3 290)'>07-12T18:40</text>
+<rect x='860.5' y='46.4' width='22.4' height='235.6' fill='#b45309'>
+<title>07-12T20:58: 97</title></rect>
+<text x='871.7' y='290' font-size='9' fill='#444' transform='rotate(-60 871.7 290)'>07-12T20:58</text>
+<rect x='884.9' y='46.4' width='22.4' height='235.6' fill='#b45309'>
+<title>07-13T17:54: 97</title></rect>
+<text x='896.1' y='290' font-size='9' fill='#444' transform='rotate(-60 896.1 290)'>07-13T17:54</text>
+<rect x='909.2' y='53.7' width='22.4' height='228.3' fill='#b45309'>
+<title>07-13T19:15: 94</title></rect>
+<text x='920.4' y='290' font-size='9' fill='#444' transform='rotate(-60 920.4 290)'>07-13T19:15</text>
+<rect x='933.6' y='44.0' width='22.4' height='238.0' fill='#b45309'>
+<title>07-14T12:21: 98</title></rect>
+<text x='944.8' y='290' font-size='9' fill='#444' transform='rotate(-60 944.8 290)'>07-14T12:21</text>
+<text x='12' y='52' font-size='10' fill='#666'>98</text>
+</svg>

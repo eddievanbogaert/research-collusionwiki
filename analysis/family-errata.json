@@ -1,0 +1,400 @@
+{
+  "inherited_titles": [
+    {
+      "page_id": "dse/ForumSeite",
+      "assigned": "relay-coordination",
+      "n_revs": 15,
+      "n_labels": 14,
+      "method": "temporal-or-coordination-unresolved"
+    },
+    {
+      "page_id": "dse/RecentChanges",
+      "assigned": "relay-coordination",
+      "n_revs": 75,
+      "n_labels": 58,
+      "method": "temporal-or-coordination-unresolved"
+    },
+    {
+      "page_id": "dse/SandBox",
+      "assigned": "relay-coordination",
+      "n_revs": 8,
+      "n_labels": 8,
+      "method": "temporal-or-coordination-unresolved"
+    },
+    {
+      "page_id": "dse/StartSeite",
+      "assigned": "vermont-rent",
+      "n_revs": 456,
+      "n_labels": 293,
+      "method": "body:6"
+    },
+    {
+      "page_id": "dse/TestSeite",
+      "assigned": "relay-coordination",
+      "n_revs": 238,
+      "n_labels": 190,
+      "method": "temporal-or-coordination-unresolved"
+    },
+    {
+      "page_id": "dse/WillkommenImWiki",
+      "assigned": "relay-coordination",
+      "n_revs": 2327,
+      "n_labels": 342,
+      "method": "temporal-or-coordination-unresolved"
+    },
+    {
+      "page_id": "fractal/RecentChanges",
+      "assigned": "off_store_unclassified",
+      "n_revs": 41,
+      "n_labels": 28,
+      "method": null
+    },
+    {
+      "page_id": "fractal/SandBox",
+      "assigned": "off_store_unclassified",
+      "n_revs": 3,
+      "n_labels": 3,
+      "method": null
+    },
+    {
+      "page_id": "probier/RecentChanges",
+      "assigned": "off_store_unclassified",
+      "n_revs": 40,
+      "n_labels": 7,
+      "method": null
+    },
+    {
+      "page_id": "probier/SandBox",
+      "assigned": "off_store_unclassified",
+      "n_revs": 21,
+      "n_labels": 2,
+      "method": null
+    },
+    {
+      "page_id": "probier/StartSeite",
+      "assigned": "off_store_unclassified",
+      "n_revs": 1,
+      "n_labels": 1,
+      "method": null
+    }
+  ],
+  "startseite_note": "Only a handful of StartSeite bodies mention Vermont; most revisions are SEC-county or DataUSA overwrites of the site homepage.",
+  "named_task_titles_in_dump_buckets": {
+    "relay-coordination": 46,
+    "source-cache-url-list": 12,
+    "source-or-unclassified": 31,
+    "probe-test": 8,
+    "mixed-task": 5,
+    "unknown": 1,
+    "off_store_unclassified": 1
+  },
+  "examples": [
+    {
+      "page_id": "dse/AgentArizonaConstruction2016LinkX",
+      "assigned": "relay-coordination",
+      "name_suggests": [
+        "datausa-construction-workforce"
+      ]
+    },
+    {
+      "page_id": "dse/AgentArizonaConstructionDataX20271203",
+      "assigned": "source-cache-url-list",
+      "name_suggests": [
+        "datausa-construction-workforce"
+      ]
+    },
+    {
+      "page_id": "dse/AgentBridgeNYConstruction",
+      "assigned": "source-or-unclassified",
+      "name_suggests": [
+        "datausa-construction-workforce"
+      ]
+    },
+    {
+      "page_id": "dse/AgentBridgeNYConstructionExactQ",
+      "assigned": "source-or-unclassified",
+      "name_suggests": [
+        "datausa-construction-workforce"
+      ]
+    },
+    {
+      "page_id": "dse/AgentBridgeNYConstructionExactR",
+      "assigned": "source-or-unclassified",
+      "name_suggests": [
+        "datausa-construction-workforce"
+      ]
+    },
+    {
+      "page_id": "dse/AgentCashierBridgeJun13X",
+      "assigned": "relay-coordination",
+      "name_suggests": [
+        "datausa-cashiers-masters"
+      ]
+    },
+    {
+      "page_id": "dse/AgentCashierBusiness2015X1781861843",
+      "assigned": "source-cache-url-list",
+      "name_suggests": [
+        "datausa-cashiers-masters"
+      ]
+    },
+    {
+      "page_id": "dse/AgentCashierBusiness2015X350904",
+      "assigned": "source-or-unclassified",
+      "name_suggests": [
+        "datausa-cashiers-masters"
+      ]
+    },
+    {
+      "page_id": "dse/AgentCashierEduMaster2014X79321",
+      "assigned": "source-cache-url-list",
+      "name_suggests": [
+        "datausa-cashiers-masters"
+      ]
+    },
+    {
+      "page_id": "dse/AgentCashierEduMaster2014XYZ",
+      "assigned": "source-or-unclassified",
+      "name_suggests": [
+        "datausa-cashiers-masters"
+      ]
+    },
+    {
+      "page_id": "dse/AgentCashierEduSep9X1781660565",
+      "assigned": "source-or-unclassified",
+      "name_suggests": [
+        "datausa-cashiers-masters"
+      ]
+    },
+    {
+      "page_id": "dse/AgentCashierEduX17816607500",
+      "assigned": "source-or-unclassified",
+      "name_suggests": [
+        "datausa-cashiers-masters"
+      ]
+    },
+    {
+      "page_id": "dse/AgentCashierEduX17816607531",
+      "assigned": "source-or-unclassified",
+      "name_suggests": [
+        "datausa-cashiers-masters"
+      ]
+    },
+    {
+      "page_id": "dse/AgentCashierEducation1781660621",
+      "assigned": "source-or-unclassified",
+      "name_suggests": [
+        "datausa-cashiers-masters"
+      ]
+    },
+    {
+      "page_id": "dse/AgentCashierMastersDataXQ2025",
+      "assigned": "source-or-unclassified",
+      "name_suggests": [
+        "datausa-cashiers-masters"
+      ]
+    },
+    {
+      "page_id": "dse/AgentChatGPTConstructionAug11X",
+      "assigned": "relay-coordination",
+      "name_suggests": [
+        "datausa-construction-workforce"
+      ]
+    },
+    {
+      "page_id": "dse/AgentConstructionNYCATXFL20270603",
+      "assigned": "relay-coordination",
+      "name_suggests": [
+        "datausa-construction-workforce"
+      ]
+    },
+    {
+      "page_id": "dse/AgentConstructionNYTest17817145",
+      "assigned": "source-or-unclassified",
+      "name_suggests": [
+        "datausa-construction-workforce"
+      ]
+    },
+    {
+      "page_id": "dse/AgentConstructionProxyTestX1781638275",
+      "assigned": "source-cache-url-list",
+      "name_suggests": [
+        "datausa-construction-workforce"
+      ]
+    },
+    {
+      "page_id": "dse/AgentDataUSAConstructionAllStates2025",
+      "assigned": "source-or-unclassified",
+      "name_suggests": [
+        "datausa-construction-workforce"
+      ]
+    },
+    {
+      "page_id": "dse/AgentDataUSAConstructionLink3",
+      "assigned": "source-or-unclassified",
+      "name_suggests": [
+        "datausa-construction-workforce"
+      ]
+    },
+    {
+      "page_id": "dse/AgentDataUSAConstructionNYAug21X",
+      "assigned": "source-or-unclassified",
+      "name_suggests": [
+        "datausa-construction-workforce"
+      ]
+    },
+    {
+      "page_id": "dse/AgentDataUSANYConstructionJan03",
+      "assigned": "source-or-unclassified",
+      "name_suggests": [
+        "datausa-construction-workforce"
+      ]
+    },
+    {
+      "page_id": "dse/AgentDataUSANYConstructionQueriesJan03",
+      "assigned": "source-cache-url-list",
+      "name_suggests": [
+        "datausa-construction-workforce"
+      ]
+    },
+    {
+      "page_id": "dse/AgentDataUsaCashierBridgeX9",
+      "assigned": "source-or-unclassified",
+      "name_suggests": [
+        "datausa-cashiers-masters"
+      ]
+    },
+    {
+      "page_id": "dse/AgentHealthdataTBConfigData96808",
+      "assigned": "source-cache-url-list",
+      "name_suggests": [
+        "ihme-cvd-deaths"
+      ]
+    },
+    {
+      "page_id": "dse/AgentHealthdataTBTest",
+      "assigned": "source-cache-url-list",
+      "name_suggests": [
+        "ihme-cvd-deaths"
+      ]
+    },
+    {
+      "page_id": "dse/AgentJan12CashierData1781598441",
+      "assigned": "relay-coordination",
+      "name_suggests": [
+        "datausa-cashiers-masters"
+      ]
+    },
+    {
+      "page_id": "dse/AgentJan12CashierData1781602479",
+      "assigned": "source-cache-url-list",
+      "name_suggests": [
+        "datausa-cashiers-masters"
+      ]
+    },
+    {
+      "page_id": "dse/AgentNYConstructionBridge",
+      "assigned": "source-cache-url-list",
+      "name_suggests": [
+        "datausa-construction-workforce"
+      ]
+    },
+    {
+      "page_id": "dse/AgentNYConstructionBridge1781712531",
+      "assigned": "source-cache-url-list",
+      "name_suggests": [
+        "datausa-construction-workforce"
+      ]
+    },
+    {
+      "page_id": "dse/AgentNYConstructionBridgeJun21Y",
+      "assigned": "source-or-unclassified",
+      "name_suggests": [
+        "datausa-construction-workforce"
+      ]
+    },
+    {
+      "page_id": "dse/AgentNYConstructionBridgeJun21Z",
+      "assigned": "source-or-unclassified",
+      "name_suggests": [
+        "datausa-construction-workforce"
+      ]
+    },
+    {
+      "page_id": "dse/AgentNYConstructionBridgeMar23X",
+      "assigned": "source-or-unclassified",
+      "name_suggests": [
+        "datausa-construction-workforce"
+      ]
+    },
+    {
+      "page_id": "dse/AgentNYConstructionBridgeX178",
+      "assigned": "source-or-unclassified",
+      "name_suggests": [
+        "datausa-construction-workforce"
+      ]
+    },
+    {
+      "page_id": "dse/AgentNYConstructionDataFeb2028",
+      "assigned": "source-or-unclassified",
+      "name_suggests": [
+        "datausa-construction-workforce"
+      ]
+    },
+    {
+      "page_id": "dse/AgentNYConstructionProbe777828",
+      "assigned": "source-or-unclassified",
+      "name_suggests": [
+        "datausa-construction-workforce"
+      ]
+    },
+    {
+      "page_id": "dse/AgentNYConstructionRaw1781712817",
+      "assigned": "source-or-unclassified",
+      "name_suggests": [
+        "datausa-construction-workforce"
+      ]
+    },
+    {
+      "page_id": "dse/AgentNYConstructionSolve1781712684",
+      "assigned": "source-or-unclassified",
+      "name_suggests": [
+        "datausa-construction-workforce"
+      ]
+    },
+    {
+      "page_id": "dse/AgentNYConstructionTestX",
+      "assigned": "relay-coordination",
+      "name_suggests": [
+        "datausa-construction-workforce"
+      ]
+    }
+  ],
+  "off_store_taskish_sample": [
+    "dorfwiki/AgentDataUSAProbeFebX2",
+    "fractal/AgentCookDataUSAJun22",
+    "fractal/AgentPovertyMembersNacX2049",
+    "fractal/DataUSABridge20260121",
+    "fractal/DataUSACooksBridgeABC",
+    "fractal/DataUSALinkBridge1782095600",
+    "fractal/DataUSAQueryBridge927",
+    "fractal/EN/DataUSAQueryBridge927",
+    "fractal/EN/JinaCashierNov1A",
+    "fractal/EN/TestPovertyBridgeXQ729",
+    "fractal/TmpTXPovertyLinksTestABC",
+    "probier/Agent0DataUSATexas2015",
+    "probier/Agent0PovertyHTXJune22UniqueA2",
+    "probier/Agent0PovertyLinksXYZ",
+    "probier/Agent0PovertyPlaceNamesJun22911",
+    "probier/Agent0PovertyStatusMemberXYZ23",
+    "probier/Agent0PovertyTexasAPIJun22",
+    "probier/Agent0PovertyTexasAPIJun22B",
+    "probier/Agent0PovertyTexasLinksCurrent",
+    "probier/Agent0TXPovertyDataLinks2026",
+    "probier/AgentBridgePovertyTXJune22",
+    "probier/AgentBridgePovertyTXUnique",
+    "probier/AgentBridgePovertyTexasCities2015X",
+    "probier/AgentDataUSAExactCA20270430",
+    "probier/AgentDataUSAIncomeEvidence"
+  ]
+}

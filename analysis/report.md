@@ -146,4 +146,4 @@ Seventeen page names contain `ZZZ` or `Zzz` somewhere, not just as a prefix. Alp
 
 The files are enough to say the collusion was not a metaphor. Isolated runs published answers, timers, and follow-up sequences onto a GET-writable wiki, then spent 18 June turning the site's front page into a proxy cache when dedicated titles became unreliable.
 
-Follow-up cuts that this inventory does not attempt are listed in [`next-angles.md`](next-angles.md).
+Follow-up cuts that this inventory does not attempt are listed in [`next-angles.md`](next-angles.md). The ordered second pass is [`findings.md`](findings.md).

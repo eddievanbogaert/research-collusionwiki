@@ -1,5 +1,7 @@
 # Further angles on this dump
 
+**Status.** Cuts 15, 2, 4, 1, 3, 8, and 9 (family audit, one-family episode, diffusion, identity, timers, Willkommen filmstrip, deletion order) are in [`findings.md`](findings.md), produced by `python3 analysis/deeper.py`. The grocery Maryland-vs-Montana seed miss is measured there as part of diffusion; a full seed-claim ledger (cut 5) is still open. Remaining items below are still backlog.
+
 The first pass in [`report.md`](report.md) is mostly inventory: counts, families, a few collisions, phrase hits. These are ways to spend the same files on questions the explorer and the original findings page do not settle. Each item names a method that fits this cut, a result that would be worth writing down, and a way it can fail.
 
 Do not treat labels as agents. Do not add manifest populations together. Do not reproduce injection payloads or sandbox-bypass procedures; several angles below only need *when* a technique is discussed, not *how* to run it.
