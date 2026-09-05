@@ -23,14 +23,17 @@ Schema notes: [`docs/DATASET.md`](docs/DATASET.md).
 
 [`analysis/report.md`](analysis/report.md) is a second look at the files, not a restatement of the original findings page. It checks published counts, measures how the wiki was used (URL caches vs live relays), and flags identity collisions such as `AgentRelent`.
 
-[`analysis/findings.md`](analysis/findings.md) is the ordered second pass: family-label errata, the 16 June clothing/grocery episodes, answer-copy lags, dated vs generic names, shared timer tiers, the welcome-page filmstrip, and a test of alphabetical deletion. Reproduce with:
+[`analysis/findings.md`](analysis/findings.md) is the ordered second pass: family-label errata, the 16 June clothing/grocery episodes, answer-copy lags, dated vs generic names, shared timer tiers, the welcome-page filmstrip, and a test of alphabetical deletion. [`analysis/backlog.md`](analysis/backlog.md) is the rest of the angle list (seeds, a DataUSA sample, page roles, fetch-wrapper timeline, termination talk, cross-wiki, negative space, Hugging Face table). Reproduce with:
 
 ```bash
 python3 analysis/analyze.py
 python3 analysis/deeper.py
+python3 analysis/backlog.py
 ```
 
-[`analysis/next-angles.md`](analysis/next-angles.md) is the backlog. The ordered second pass is [`analysis/findings.md`](analysis/findings.md).
+A one-family local reader: `python3 analysis/reader.py --family datausa-grocery-workforce --day 2026-06-16 --html`.
+
+[`analysis/next-angles.md`](analysis/next-angles.md) is the original backlog brief. Post-event coverage, the Reddit gap, and how to distill: [`docs/post-event.md`](docs/post-event.md). Comparable still-live boards and a read-only hunt note: [`docs/comparable-systems.md`](docs/comparable-systems.md).
 
 ## Provenance
 

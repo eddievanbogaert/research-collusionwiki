@@ -1,0 +1,649 @@
+{
+  "seed_ledger": {
+    "n_distinct_numeric_seeds": 8,
+    "n_shuffle_hint_revisions": 171,
+    "seeds": [
+      {
+        "seed": "881171",
+        "first_seen": "2026-06-16T09:47:08Z",
+        "first_page": "DataUSAStateSequenceCollab2027",
+        "first_label": "ParallelSectorAgentApr2",
+        "n_revisions": 62,
+        "n_pages": 1,
+        "n_labels": 28,
+        "likely_false_positive": false,
+        "top_predictions": [
+          {
+            "text": "NH",
+            "n": 47
+          },
+          {
+            "text": "New Hampshire",
+            "n": 15
+          }
+        ]
+      },
+      {
+        "seed": "1905228",
+        "first_seen": "2026-06-16T10:54:31Z",
+        "first_page": "DataUSAGroceryLiveRounds2027",
+        "first_label": "GroceryAgentMar13X",
+        "n_revisions": 56,
+        "n_pages": 2,
+        "n_labels": 23,
+        "likely_false_positive": false,
+        "top_predictions": [
+          {
+            "text": "MARYLAND 52,395",
+            "n": 11
+          }
+        ]
+      },
+      {
+        "seed": "8799849",
+        "first_seen": "2026-06-16T22:54:00Z",
+        "first_page": "DataUSALangR5RelayOct23",
+        "first_label": "ResearchAgentAprNineteenX",
+        "n_revisions": 22,
+        "n_pages": 1,
+        "n_labels": 12,
+        "likely_false_positive": false,
+        "top_predictions": []
+      },
+      {
+        "seed": "2428211",
+        "first_seen": "2026-06-16T22:28:11Z",
+        "first_page": "Sector61State5ConfirmedIDDec27",
+        "first_label": "OpenAIThread4ffeaMar12",
+        "n_revisions": 19,
+        "n_pages": 2,
+        "n_labels": 8,
+        "likely_false_positive": false,
+        "top_predictions": [
+          {
+            "text": "MARYLAND 52,395",
+            "n": 11
+          }
+        ]
+      },
+      {
+        "seed": "2022",
+        "first_seen": "2026-06-21T12:48:16Z",
+        "first_page": "IHMEFamilyPlanningDec13Cohort",
+        "first_label": "OpenAIFPResearchSep05",
+        "n_revisions": 5,
+        "n_pages": 1,
+        "n_labels": 4,
+        "likely_false_positive": true,
+        "top_predictions": []
+      },
+      {
+        "seed": "17500112",
+        "first_seen": "2026-06-21T12:48:16Z",
+        "first_page": "IHMEFamilyPlanningDec13Cohort",
+        "first_label": "OpenAIFPResearchSep05",
+        "n_revisions": 5,
+        "n_pages": 1,
+        "n_labels": 4,
+        "likely_false_positive": false,
+        "top_predictions": []
+      },
+      {
+        "seed": "1646124819",
+        "first_seen": "2026-06-21T12:54:54Z",
+        "first_page": "IHMEFamilyPlanningDec13Cohort",
+        "first_label": "OAIResearchDec13FP",
+        "n_revisions": 4,
+        "n_pages": 1,
+        "n_labels": 3,
+        "likely_false_positive": true,
+        "top_predictions": []
+      },
+      {
+        "seed": "2682",
+        "first_seen": "2026-06-21T13:40:03Z",
+        "first_page": "IHMEFamilyPlanningSequenceCollab",
+        "first_label": "OAIResearchDec13FP",
+        "n_revisions": 3,
+        "n_pages": 1,
+        "n_labels": 2,
+        "likely_false_positive": false,
+        "top_predictions": []
+      }
+    ]
+  },
+  "page_roles": {
+    "pages_by_role": {
+      "other": 2080,
+      "bridge-cache": 487,
+      "url-cache": 1006,
+      "collab-thread": 20,
+      "signal": 28,
+      "named-task": 626,
+      "inherited-title": 11,
+      "loop-chain": 316,
+      "zzz-backup": 5
+    },
+    "first_by_role": {
+      "url-cache": {
+        "write_date": "2026-05-24T06:02:19Z",
+        "wiki": "dse",
+        "name": "FederalDataReferenceXYZ",
+        "label": "FederalUserTest"
+      },
+      "other": {
+        "write_date": "2026-05-24T06:21:16Z",
+        "wiki": "fractal",
+        "name": "EN/FederalDataLinks",
+        "label": "FederalAgent"
+      },
+      "bridge-cache": {
+        "write_date": "2026-05-24T13:18:32Z",
+        "wiki": "dse",
+        "name": "TmpFederalBridge",
+        "label": "BridgeUserX"
+      },
+      "inherited-title": {
+        "write_date": "2026-05-26T10:51:00Z",
+        "wiki": "fractal",
+        "name": "RecentChanges",
+        "label": "ResearchAgentX"
+      },
+      "named-task": {
+        "write_date": "2026-05-26T13:17:31Z",
+        "wiki": "dse",
+        "name": "TestPageFoo",
+        "label": "ResearchVisitor"
+      },
+      "zzz-backup": {
+        "write_date": "2026-05-26T14:59:34Z",
+        "wiki": "dse",
+        "name": "ZZZLinkPage",
+        "label": "ResearchTesterX"
+      },
+      "collab-thread": {
+        "write_date": "2026-06-16T09:27:10Z",
+        "wiki": "dse",
+        "name": "DataUSAStateSequenceCollab2027",
+        "label": "StateSequenceResearcher"
+      },
+      "signal": {
+        "write_date": "2026-06-16T20:46:55Z",
+        "wiki": "dse",
+        "name": "Sector61State5FastSignal",
+        "label": "GroceryAgentFeb27X"
+      },
+      "loop-chain": {
+        "write_date": "2026-06-18T19:48:07Z",
+        "wiki": "dse",
+        "name": "LoopNextWord100380",
+        "label": "AgentSaveFinal7"
+      }
+    },
+    "june18_loop_chain_span": {
+      "first": "2026-06-18T19:48:07Z",
+      "last": "2026-06-18T20:30:53Z",
+      "n": 317
+    }
+  },
+  "proxy_timeline": {
+    "first_seen": [
+      {
+        "host": "markdown.new",
+        "write_date": "2026-05-26T09:50:02Z",
+        "wiki": "dse",
+        "name": "Node50166915Test",
+        "total": 1146,
+        "june18": 842,
+        "june18_frac": 0.7347
+      },
+      {
+        "host": "pure.md",
+        "write_date": "2026-05-26T13:25:33Z",
+        "wiki": "dse",
+        "name": "Node38001377",
+        "total": 418,
+        "june18": 290,
+        "june18_frac": 0.6938
+      },
+      {
+        "host": "jqp.vercel.app",
+        "write_date": "2026-05-28T13:03:06Z",
+        "wiki": "dse",
+        "name": "CharlestonPartFourRefsX",
+        "total": 3235,
+        "june18": 3101,
+        "june18_frac": 0.9586
+      },
+      {
+        "host": "allorigins.hexlet.app",
+        "write_date": "2026-05-28T13:03:06Z",
+        "wiki": "dse",
+        "name": "CharlestonPartFourRefsX",
+        "total": 1226,
+        "june18": 1145,
+        "june18_frac": 0.9339
+      },
+      {
+        "host": "cors.bwa.workers.dev",
+        "write_date": "2026-05-28T14:57:54Z",
+        "wiki": "dse",
+        "name": "AgentCorsArchiveMetadataLinksF",
+        "total": 269,
+        "june18": 30,
+        "june18_frac": 0.1115
+      },
+      {
+        "host": "md.succ.ai",
+        "write_date": "2026-05-29T22:28:50Z",
+        "wiki": "dse",
+        "name": "StartSeite",
+        "total": 2349,
+        "june18": 2287,
+        "june18_frac": 0.9736
+      },
+      {
+        "host": "r.jina.ai",
+        "write_date": "2026-06-01T12:59:39Z",
+        "wiki": "dse",
+        "name": "AgentClarkEcoProxyTests",
+        "total": 911,
+        "june18": 832,
+        "june18_frac": 0.9133
+      },
+      {
+        "host": "md.dhr.wtf",
+        "write_date": "2026-06-01T15:00:48Z",
+        "wiki": "dse",
+        "name": "StartSeite",
+        "total": 244,
+        "june18": 243,
+        "june18_frac": 0.9959
+      },
+      {
+        "host": "api.counterapi.dev",
+        "write_date": "2026-06-16T22:01:54Z",
+        "wiki": "dse",
+        "name": "Sector61State5FastSignal",
+        "total": 416,
+        "june18": 18,
+        "june18_frac": 0.0433
+      },
+      {
+        "host": "countapi.mileshilliard.com",
+        "write_date": "2026-06-17T00:56:56Z",
+        "wiki": "dse",
+        "name": "DataUSALanguageJul17R5",
+        "total": 44,
+        "june18": 0,
+        "june18_frac": 0.0
+      },
+      {
+        "host": "jsonhero.io",
+        "write_date": "2026-06-18T15:02:37Z",
+        "wiki": "probier",
+        "name": "TestMASGet2",
+        "total": 119,
+        "june18": 108,
+        "june18_frac": 0.9076
+      },
+      {
+        "host": "webcrawlerapi.com",
+        "write_date": "2026-06-18T19:45:20Z",
+        "wiki": "dse",
+        "name": "StartSeite",
+        "total": 301,
+        "june18": 301,
+        "june18_frac": 1.0
+      }
+    ],
+    "zero_in_dump": []
+  },
+  "proxy_purpose": {
+    "named_wrapper_revisions": {
+      "jqp_named": 3235,
+      "jina_named": 916,
+      "pinggy_named": 30,
+      "jsonhero_named": 119
+    },
+    "cooccurrence": {
+      "jqp+sec_county": 3094,
+      "jina+pinggy": 21
+    }
+  },
+  "heartbeats": {
+    "counterapi": {
+      "write_date": "2026-06-16T22:01:54Z",
+      "wiki": "dse",
+      "name": "Sector61State5FastSignal",
+      "label": "Apr19SectorRelay",
+      "n_revisions": 493,
+      "n_pages": 112
+    },
+    "heartbeat": {
+      "write_date": "2026-06-17T00:19:12Z",
+      "wiki": "dse",
+      "name": "LFSequenceCollabMay03",
+      "label": "SectorAgentFeb25OAI",
+      "n_revisions": 229,
+      "n_pages": 32
+    },
+    "survival": {
+      "write_date": "2026-06-21T07:25:16Z",
+      "wiki": "dse",
+      "name": "Apr23CVDHorizonBeacon2025",
+      "label": "OpenAIResearchApr23",
+      "n_revisions": 76,
+      "n_pages": 17
+    },
+    "phantom_r6": {
+      "write_date": "2026-06-19T09:59:45Z",
+      "wiki": "dse",
+      "name": "HealthdataCVDSequenceCollab",
+      "label": "OAI7C97",
+      "n_revisions": 143,
+      "n_pages": 12
+    },
+    "horizon": {
+      "write_date": "2026-06-17T05:23:27Z",
+      "wiki": "dse",
+      "name": "OpenAIDec17ConstructionLive",
+      "label": "OurMaidsCoordOct11",
+      "n_revisions": 379,
+      "n_pages": 78
+    },
+    "cutoff": {
+      "write_date": "2026-06-18T01:39:08Z",
+      "wiki": "dse",
+      "name": "OAIJul8ConstructionR5Live",
+      "label": "OpenAIHelperX",
+      "n_revisions": 225,
+      "n_pages": 34
+    }
+  },
+  "cross_wiki": {
+    "first_write": {
+      "dorfwiki": {
+        "write_date": "2026-06-22T08:42:57Z",
+        "name": "AgentOpenResearchDataJune18",
+        "label": "ResearchHelperAgent"
+      },
+      "dse": {
+        "write_date": "2026-05-24T06:02:19Z",
+        "name": "FederalDataReferenceXYZ",
+        "label": "FederalUserTest"
+      },
+      "fractal": {
+        "write_date": "2026-05-24T06:21:16Z",
+        "name": "EN/FederalDataLinks",
+        "label": "FederalAgent"
+      },
+      "probier": {
+        "write_date": "2026-05-24T11:56:31Z",
+        "name": "FederalDataReferenceXYZ",
+        "label": ""
+      }
+    },
+    "revisions_by_wiki": {
+      "dorfwiki": 6,
+      "dse": 13403,
+      "fractal": 169,
+      "probier": 1013
+    },
+    "labels_spanning_two_plus_wikis": 19,
+    "top_families_by_wiki": {
+      "dorfwiki": [
+        [
+          "off_store_unclassified",
+          6
+        ]
+      ],
+      "dse": [
+        [
+          "relay-coordination",
+          5441
+        ],
+        [
+          "source-cache-url-list",
+          2109
+        ],
+        [
+          "source-or-unclassified",
+          870
+        ],
+        [
+          "datausa-clothing-workforce",
+          491
+        ],
+        [
+          "vermont-rent",
+          459
+        ]
+      ],
+      "fractal": [
+        [
+          "off_store_unclassified",
+          169
+        ]
+      ],
+      "probier": [
+        [
+          "off_store_unclassified",
+          1013
+        ]
+      ]
+    },
+    "farm_mentions_in_bodies": {
+      "usemod": null,
+      "prowiki": {
+        "write_date": "2026-05-26T11:22:34Z",
+        "wiki": "dse",
+        "name": "NodeCitationLinksAlpha",
+        "label": "ResearchTest",
+        "n_revisions": 172,
+        "n_pages": 83
+      },
+      "wiki4d": {
+        "write_date": "2026-05-26T14:10:31Z",
+        "wiki": "dse",
+        "name": "ApiReferencesForResearch",
+        "label": "ApiNavUpdater",
+        "n_revisions": 1,
+        "n_pages": 1
+      },
+      "publictestwiki": null,
+      "uncyclopedia": null,
+      "meatball": {
+        "write_date": "2026-05-26T14:56:16Z",
+        "wiki": "dse",
+        "name": "IInt0Foo",
+        "label": "TesterAlpha",
+        "n_revisions": 1,
+        "n_pages": 1
+      },
+      "ludism": null,
+      "oddmuse": null
+    },
+    "dorfwiki_revisions": [
+      {
+        "write_date": "2026-06-22T08:45:55Z",
+        "name": "AgentDataUSAProbeFebX2",
+        "label": "DataResearcherAlpha"
+      },
+      {
+        "write_date": "2026-06-22T08:45:55Z",
+        "name": "AgentDataUSAProbeFebX2",
+        "label": "DataResearcherAlpha"
+      },
+      {
+        "write_date": "2026-06-22T08:42:57Z",
+        "name": "AgentOpenResearchDataJune18",
+        "label": "ResearchHelperAgent"
+      },
+      {
+        "write_date": "2026-06-22T08:42:57Z",
+        "name": "AgentOpenResearchDataJune18",
+        "label": "ResearchHelperAgent"
+      },
+      {
+        "write_date": "2026-06-22T08:43:32Z",
+        "name": "AgentOpenResearchDataJune18",
+        "label": "ResearchHelperAgent"
+      },
+      {
+        "write_date": "2026-06-22T08:46:18Z",
+        "name": "AgentOpenResearchDataJune18",
+        "label": "ResearchHelperAgent"
+      }
+    ]
+  },
+  "negative_space": {
+    "revision_hits": {
+      "artifactory": 0,
+      "hugging_face": 0,
+      "exploitgym": 0,
+      "usemod": 0,
+      "uncyclopedia": 0,
+      "c2_wiki": 0,
+      "texteditors": 0,
+      "reward": 0,
+      "training": 0,
+      "internal_board": 0,
+      "surprise_other_agents": 0,
+      "prowiki": 172,
+      "wikiservice": 4051,
+      "evaluated": 6,
+      "human_mod": 14,
+      "credential": 28,
+      "openai": 277,
+      "wiki4d": 1,
+      "meatball": 1,
+      "publictestwiki": 0,
+      "ludism": 0,
+      "oddmuse": 0,
+      "apchem": 0
+    },
+    "first_seen": {
+      "wikiservice": {
+        "write_date": "2026-05-24T11:53:57Z",
+        "name": "FederalDataReferenceXYZ"
+      },
+      "prowiki": {
+        "write_date": "2026-05-26T11:22:34Z",
+        "name": "NodeCitationLinksAlpha"
+      },
+      "openai": {
+        "write_date": "2026-06-16T09:01:48Z",
+        "name": "AgentTryPumsCitationABC"
+      },
+      "credential": {
+        "write_date": "2026-05-28T15:29:44Z",
+        "name": "AgentDPLALibraryObjectAPILinksK91"
+      },
+      "wiki4d": {
+        "write_date": "2026-05-26T14:10:31Z",
+        "name": "ApiReferencesForResearch"
+      },
+      "human_mod": {
+        "write_date": "2026-06-21T06:15:53Z",
+        "name": "BridgeLAProd1782007689"
+      },
+      "meatball": {
+        "write_date": "2026-05-26T14:56:16Z",
+        "name": "IInt0Foo"
+      },
+      "evaluated": {
+        "write_date": "2026-06-20T02:04:47Z",
+        "name": "Jun05OECDScout"
+      }
+    },
+    "by_month": {
+      "wikiservice": {
+        "2026-06": 3928,
+        "2026-05": 123
+      },
+      "prowiki": {
+        "2026-06": 153,
+        "2026-05": 19
+      },
+      "openai": {
+        "2026-06": 277
+      },
+      "credential": {
+        "2026-06": 17,
+        "2026-05": 11
+      },
+      "wiki4d": {
+        "2026-05": 1
+      },
+      "human_mod": {
+        "2026-06": 14
+      },
+      "meatball": {
+        "2026-05": 1
+      },
+      "evaluated": {
+        "2026-06": 6
+      }
+    },
+    "never_mentioned": [
+      "apchem",
+      "artifactory",
+      "c2_wiki",
+      "exploitgym",
+      "hugging_face",
+      "internal_board",
+      "ludism",
+      "oddmuse",
+      "publictestwiki",
+      "reward",
+      "surprise_other_agents",
+      "texteditors",
+      "training",
+      "uncyclopedia",
+      "usemod"
+    ]
+  },
+  "api_audit": {
+    "checked_at": "2026-09-05T07:41:41Z",
+    "sample": [
+      {
+        "id": "clothing-ca-4481-2015-17",
+        "source": "DataUSAClothingSequenceCollabAug08 2026-06-16T09:31Z",
+        "posted": {
+          "2015": 163139,
+          "2016": 166813,
+          "2017": 170032
+        },
+        "url_host": "api.datausa.io",
+        "checked_at": "2026-09-05T07:41:41Z",
+        "live": {
+          "2015": 163139,
+          "2016": 166813,
+          "2017": 170032
+        },
+        "live_state": "California",
+        "match": true,
+        "ok": true
+      },
+      {
+        "id": "grocery-ga-4451-2014",
+        "source": "grocery collab 2026-06-16; live pums_5 Georgia 4451 matches 2014 (not 2015\u201317)",
+        "posted": {
+          "Georgia": 90725
+        },
+        "url_host": "api.datausa.io",
+        "checked_at": "2026-09-05T07:41:41Z",
+        "live": {
+          "2014": 90725
+        },
+        "live_state": "Georgia",
+        "match": true,
+        "matching_years": [
+          "2014"
+        ],
+        "ok": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='920' height='320' font-family='ui-sans-serif, system-ui, sans-serif'>
+<rect width='100%' height='100%' fill='#fffef8'/>
+<text x='16' y='28' font-size='16' font-weight='600' fill='#111'>Revision bodies naming each fetch wrapper</text>
+<text x='212' y='56' font-size='11' text-anchor='end' fill='#333'>markdown.new</text>
+<rect x='220' y='44' width='219' height='14' fill='#365314'/>
+<text x='445' y='56' font-size='11' fill='#333'>1,146</text>
+<text x='212' y='78' font-size='11' text-anchor='end' fill='#333'>pure.md</text>
+<rect x='220' y='66' width='80' height='14' fill='#365314'/>
+<text x='306' y='78' font-size='11' fill='#333'>418</text>
+<text x='212' y='100' font-size='11' text-anchor='end' fill='#333'>jqp.vercel.app</text>
+<rect x='220' y='88' width='620' height='14' fill='#365314'/>
+<text x='846' y='100' font-size='11' fill='#333'>3,235</text>
+<text x='212' y='122' font-size='11' text-anchor='end' fill='#333'>allorigins.hexlet.app</text>
+<rect x='220' y='110' width='234' height='14' fill='#365314'/>
+<text x='460' y='122' font-size='11' fill='#333'>1,226</text>
+<text x='212' y='144' font-size='11' text-anchor='end' fill='#333'>cors.bwa.workers.dev</text>
+<rect x='220' y='132' width='51' height='14' fill='#365314'/>
+<text x='277' y='144' font-size='11' fill='#333'>269</text>
+<text x='212' y='166' font-size='11' text-anchor='end' fill='#333'>md.succ.ai</text>
+<rect x='220' y='154' width='450' height='14' fill='#365314'/>
+<text x='676' y='166' font-size='11' fill='#333'>2,349</text>
+<text x='212' y='188' font-size='11' text-anchor='end' fill='#333'>r.jina.ai</text>
+<rect x='220' y='176' width='174' height='14' fill='#365314'/>
+<text x='400' y='188' font-size='11' fill='#333'>911</text>
+<text x='212' y='210' font-size='11' text-anchor='end' fill='#333'>md.dhr.wtf</text>
+<rect x='220' y='198' width='46' height='14' fill='#365314'/>
+<text x='272' y='210' font-size='11' fill='#333'>244</text>
+<text x='212' y='232' font-size='11' text-anchor='end' fill='#333'>api.counterapi.dev</text>
+<rect x='220' y='220' width='79' height='14' fill='#365314'/>
+<text x='305' y='232' font-size='11' fill='#333'>416</text>
+<text x='212' y='254' font-size='11' text-anchor='end' fill='#333'>countapi.mileshilliard.com</text>
+<rect x='220' y='242' width='8' height='14' fill='#365314'/>
+<text x='234' y='254' font-size='11' fill='#333'>44</text>
+<text x='212' y='276' font-size='11' text-anchor='end' fill='#333'>jsonhero.io</text>
+<rect x='220' y='264' width='22' height='14' fill='#365314'/>
+<text x='248' y='276' font-size='11' fill='#333'>119</text>
+<text x='212' y='298' font-size='11' text-anchor='end' fill='#333'>webcrawlerapi.com</text>
+<rect x='220' y='286' width='57' height='14' fill='#365314'/>
+<text x='283' y='298' font-size='11' fill='#333'>301</text>
+</svg>

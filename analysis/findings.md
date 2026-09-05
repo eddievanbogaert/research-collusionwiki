@@ -127,4 +127,6 @@ Later `LoopNextWord10xxxx` sessions often run **backwards** through numeric suff
 - Timer tiers (`17s`, `13s`, `14s`, `12m18`) are shared across evals.
 - The moderator did sweep A–Z in some sittings; the swarm’s lasting adaptation was occupying titles the moderator would not delete.
 
+Later cuts (seed ledger, DataUSA audit, page roles, proxy timeline, heartbeats, cross-wiki, negative space, HF table, local reader) are [`backlog.md`](backlog.md).
+
 Still not in this dump: chain-of-thought, full IPs, publictestwiki/Uncyclopedia, and whether OpenAI’s 21–26 June visits caused the 22 June stop.
