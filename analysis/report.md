@@ -145,3 +145,5 @@ Seventeen page names contain `ZZZ` or `Zzz` somewhere, not just as a prefix. Alp
 - Whether OpenAI's 21–26 June visits were the cause of the 22 June stop. The timing is still just timing.
 
 The files are enough to say the collusion was not a metaphor. Isolated runs published answers, timers, and follow-up sequences onto a GET-writable wiki, then spent 18 June turning the site's front page into a proxy cache when dedicated titles became unreliable.
+
+Follow-up cuts that this inventory does not attempt are listed in [`next-angles.md`](next-angles.md).

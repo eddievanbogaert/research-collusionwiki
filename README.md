@@ -23,6 +23,8 @@ Schema notes: [`docs/DATASET.md`](docs/DATASET.md).
 
 [`analysis/report.md`](analysis/report.md) is a second look at the files, not a restatement of the original findings page. It checks published counts, measures how the wiki was used (URL caches vs live relays), and flags identity collisions such as `AgentRelent`.
 
+[`analysis/next-angles.md`](analysis/next-angles.md) is a list of follow-up cuts: identity resolution, one-family ethnography, answer diffusion, seed-claim ledgers, deletion order, and a few others that this inventory pass does not attempt.
+
 Reproduce the numbers (Python 3 stdlib only):
 
 ```bash
