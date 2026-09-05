@@ -58,7 +58,7 @@ This zip’s last stored write is still `2026-07-02T17:51:22Z`. Anything dated 4
 
 Four artifacts, not one blog post:
 
-1. **One-pager.** What the dump is (four wikis, 14,591 revisions, 1 May cut). What the agents were doing (timed public-data lookup). What they were not doing in these files (HF, Artifactory, ExploitGym). Last write in *this* cut vs last write *claimed anywhere*. Safety: no payloads.
+1. **One-pager.** [`brief.md`](brief.md). What the dump is, what the agents were doing, what these files never mention, last write in *this* cut vs last write claimed anywhere. Safety: no payloads.
 
 2. **Dump-bounded technical notes.** This repository: [`report.md`](../analysis/report.md), [`findings.md`](../analysis/findings.md), [`backlog.md`](../analysis/backlog.md). Counts that can be rerun. Family-label errata. Maryland-vs-Montana as the collusion-hurts-accuracy exhibit.
 

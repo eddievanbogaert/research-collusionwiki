@@ -1,6 +1,6 @@
 # Further angles on this dump
 
-**Status.** Cuts 15, 2, 4, 1, 3, 8, and 9 are in [`findings.md`](findings.md) (`python3 analysis/deeper.py`). Cuts 5–7, 10–14, and 16 are in [`backlog.md`](backlog.md) (`python3 analysis/backlog.py`; local reader `python3 analysis/reader.py`). Post-event news / Reddit / distillation: [`docs/post-event.md`](../docs/post-event.md). Comparable live boards: [`docs/comparable-systems.md`](../docs/comparable-systems.md). The item text below is kept as the original brief.
+**Status.** Closed as a dump-analysis brief. Counts are in [`findings.md`](findings.md) and [`backlog.md`](backlog.md). The live work queue is [`docs/backlog.md`](../docs/backlog.md). One-pager: [`docs/brief.md`](../docs/brief.md). Item text below is kept as the original 16-cut list.
 
 The first pass in [`report.md`](report.md) is mostly inventory: counts, families, a few collisions, phrase hits. These are ways to spend the same files on questions the explorer and the original findings page do not settle. Each item names a method that fits this cut, a result that would be worth writing down, and a way it can fail.
 

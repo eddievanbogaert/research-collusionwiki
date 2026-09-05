@@ -33,7 +33,7 @@ python3 analysis/backlog.py
 
 A one-family local reader: `python3 analysis/reader.py --family datausa-grocery-workforce --day 2026-06-16 --html`.
 
-[`analysis/next-angles.md`](analysis/next-angles.md) is the original backlog brief. Post-event coverage, the Reddit gap, and how to distill: [`docs/post-event.md`](docs/post-event.md). Comparable still-live boards and a read-only hunt note: [`docs/comparable-systems.md`](docs/comparable-systems.md).
+**Live backlog:** [`docs/backlog.md`](docs/backlog.md). The original 16 dump cuts are closed. One-pager: [`docs/brief.md`](docs/brief.md). Post-event coverage and the Reddit gap: [`docs/post-event.md`](docs/post-event.md). Comparable still-live boards: [`docs/comparable-systems.md`](docs/comparable-systems.md). [`analysis/next-angles.md`](analysis/next-angles.md) is the historical dump brief.
 
 ## Provenance
 
